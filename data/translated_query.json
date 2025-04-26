@@ -2,7 +2,7 @@
   {
     "qid": 1,
     "query": "匯款銀行及中間行所收取之相關費用由誰負擔?",
-    "query_en": "EN Translation of: 匯款銀行及中間行所收取之相關費用由誰負擔?",
+    "query_en": "Who bears the relevant fees charged by the remitting bank and intermediary bank?",
     "category": "insurance",
     "source": [
       442,
@@ -18,7 +18,7 @@
   {
     "qid": 2,
     "query": "本公司應在效力停止日前多少天以書面通知要保人？",
-    "query_en": "EN Translation of: 本公司應在效力停止日前多少天以書面通知要保人？",
+    "query_en": "How many days in advance must the company notify the policyholder in writing before the contract becomes void?",
     "category": "insurance",
     "source": [
       475,
@@ -34,7 +34,7 @@
   {
     "qid": 3,
     "query": "「完全失能保險金」的受益人是否可以指定或變更?",
-    "query_en": "EN Translation of: 「完全失能保險金」的受益人是否可以指定或變更?",
+    "query_en": "Can the beneficiary of the Permanent Disability Benefit be designated or changed?",
     "category": "insurance",
     "source": [
       83,
@@ -46,7 +46,7 @@
   {
     "qid": 4,
     "query": "本契約內容的變更應經由誰同意並批註？",
-    "query_en": "EN Translation of: 本契約內容的變更應經由誰同意並批註？",
+    "query_en": "Who must consent to and endorse changes to the content of this contract?",
     "category": "insurance",
     "source": [
       186,
@@ -60,7 +60,7 @@
   {
     "qid": 5,
     "query": "「基本保額」是指什麼？",
-    "query_en": "EN Translation of: 「基本保額」是指什麼？",
+    "query_en": "What does 基本保額 mean?",
     "category": "insurance",
     "source": [
       179,
@@ -72,7 +72,7 @@
   {
     "qid": 6,
     "query": "要保人或受益人應於知悉本公司應負保險責任之事故後幾日內通知本公司？",
-    "query_en": "EN Translation of: 要保人或受益人應於知悉本公司應負保險責任之事故後幾日內通知本公司？",
+    "query_en": "Within how many days must the policyholder or beneficiary notify the company after becoming aware of an incident covered by the policy?",
     "category": "insurance",
     "source": [
       275,
@@ -84,7 +84,7 @@
   {
     "qid": 7,
     "query": "身故保險金的給付會使本契約效力如何變化? ",
-    "query_en": "EN Translation of: 身故保險金的給付會使本契約效力如何變化? ",
+    "query_en": "How does the payment of a death benefit affect the validity of this contract? ",
     "category": "insurance",
     "source": [
       486,
@@ -96,7 +96,7 @@
   {
     "qid": 8,
     "query": "要保人在訂立本契約時，是否應對於本公司要保書書面詢問的告知事項據實說明？",
-    "query_en": "EN Translation of: 要保人在訂立本契約時，是否應對於本公司要保書書面詢問的告知事項據實說明？",
+    "query_en": "When entering into this contract, is the policyholder required to truthfully disclose information requested in the written application?",
     "category": "insurance",
     "source": [
       428,
@@ -111,7 +111,7 @@
   {
     "qid": 9,
     "query": "受益人故意致被保險人於死或未致死者，會喪失什麼權利？",
-    "query_en": "EN Translation of: 受益人故意致被保險人於死或未致死者，會喪失什麼權利？",
+    "query_en": "What rights does a beneficiary lose if they intentionally cause or attempt to cause the death of the insured?",
     "category": "insurance",
     "source": [
       631,
@@ -128,7 +128,7 @@
   {
     "qid": 10,
     "query": "要保人改為「展期定期保險」後，是否仍適用增值回饋分享金的給付?",
-    "query_en": "EN Translation of: 要保人改為「展期定期保險」後，是否仍適用增值回饋分享金的給付?",
+    "query_en": "After switching to Extended term insurance is the policyholder still eligible for value-sharing dividends?",
     "category": "insurance",
     "source": [
       32,
@@ -140,7 +140,7 @@
   {
     "qid": 11,
     "query": "保單借款的可借金額上限如何決定？",
-    "query_en": "EN Translation of: 保單借款的可借金額上限如何決定？",
+    "query_en": "How is the maximum loan amount of a policy loan determined?",
     "category": "insurance",
     "source": [
       241,
@@ -155,7 +155,7 @@
   {
     "qid": 12,
     "query": "受益人變更是否須經被保險人同意並通知保險公司?",
-    "query_en": "EN Translation of: 受益人變更是否須經被保險人同意並通知保險公司?",
+    "query_en": "Does changing the beneficiary require the insured's consent and notification to the insurance company?",
     "category": "insurance",
     "source": [
       526,
@@ -165,7 +165,7 @@
   {
     "qid": 13,
     "query": "要保人的住所變更時，應該如何通知本公司？",
-    "query_en": "EN Translation of: 要保人的住所變更時，應該如何通知本公司？",
+    "query_en": "When the policyholder changes their residence, how should they notify the company?",
     "category": "insurance",
     "source": [
       526,
@@ -179,7 +179,7 @@
   {
     "qid": 14,
     "query": "本契約內容的變更或記載事項的增刪應由誰同意?",
-    "query_en": "EN Translation of: 本契約內容的變更或記載事項的增刪應由誰同意?",
+    "query_en": "Who must approve changes to the contract content or additions/deletions of recorded matters?",
     "category": "insurance",
     "source": [
       149,
@@ -192,7 +192,7 @@
   {
     "qid": 15,
     "query": "本契約的解釋原則是什麼？",
-    "query_en": "EN Translation of: 本契約的解釋原則是什麼？",
+    "query_en": "What is the principle for interpreting this contract?",
     "category": "insurance",
     "source": [
       337,
@@ -207,7 +207,7 @@
   {
     "qid": 16,
     "query": "約定以金融機構轉帳交付第二期以後的分期保險費者，本公司應如何處理未能依約定受領保險費的情況？",
-    "query_en": "EN Translation of: 約定以金融機構轉帳交付第二期以後的分期保險費者，本公司應如何處理未能依約定受領保險費的情況？",
+    "query_en": "If subsequent installment premiums are paid via bank transfer, how will the company handle situations where the payment is not received as agreed?",
     "category": "insurance",
     "source": [
       261,
@@ -222,7 +222,7 @@
   {
     "qid": 17,
     "query": "契約終止後，本公司應於何時償付解約金?",
-    "query_en": "EN Translation of: 契約終止後，本公司應於何時償付解約金?",
+    "query_en": "After the contract is terminated, when should the company pay the surrender value?",
     "category": "insurance",
     "source": [
       606,
@@ -236,7 +236,7 @@
   {
     "qid": 18,
     "query": "滿期保險金是如何計算的？",
-    "query_en": "EN Translation of: 滿期保險金是如何計算的？",
+    "query_en": "How is the maturity benefit calculated?",
     "category": "insurance",
     "source": [
       184,
@@ -248,7 +248,7 @@
   {
     "qid": 19,
     "query": "受益人申領身故保險金或喪葬費用保險金時應檢具哪些文件？",
-    "query_en": "EN Translation of: 受益人申領身故保險金或喪葬費用保險金時應檢具哪些文件？",
+    "query_en": "What documents must a beneficiary provide to claim death or funeral insurance benefits?",
     "category": "insurance",
     "source": [
       387,
@@ -264,7 +264,7 @@
   {
     "qid": 20,
     "query": "完全失能保險金的計算方式是依據什麼標準進行的？",
-    "query_en": "EN Translation of: 完全失能保險金的計算方式是依據什麼標準進行的？",
+    "query_en": "What standards are used to calculate the total permanent disability insurance?",
     "category": "insurance",
     "source": [
       292,
@@ -276,7 +276,7 @@
   {
     "qid": 21,
     "query": "受益人申領「完全失能保險金」時應檢具哪些文件？",
-    "query_en": "EN Translation of: 受益人申領「完全失能保險金」時應檢具哪些文件？",
+    "query_en": "What documents are required when a beneficiary claims the total disability insurance benefit?",
     "category": "insurance",
     "source": [
       586,
@@ -293,7 +293,7 @@
   {
     "qid": 22,
     "query": "受益人第一次申領分期定期給付保險金時，本公司應於何時給付之？",
-    "query_en": "EN Translation of: 受益人第一次申領分期定期給付保險金時，本公司應於何時給付之？",
+    "query_en": "When should the company make the first payment of installment periodic insurance benefits to the beneficiary?",
     "category": "insurance",
     "source": [
       439,
@@ -305,7 +305,7 @@
   {
     "qid": 23,
     "query": "欠繳保險費或未還款項會如何影響本公司給付保險金等項目的金額？",
-    "query_en": "EN Translation of: 欠繳保險費或未還款項會如何影響本公司給付保險金等項目的金額？",
+    "query_en": "How do unpaid premiums or outstanding loans affect the amount of insurance benefits paid by the company?",
     "category": "insurance",
     "source": [
       337,
@@ -318,7 +318,7 @@
   {
     "qid": 24,
     "query": "要保人改為「展期定期保險」後，是否需要繼續繳保險費？",
-    "query_en": "EN Translation of: 要保人改為「展期定期保險」後，是否需要繼續繳保險費？",
+    "query_en": "After converting to extended term insurance, does the policyholder still need to pay premiums?",
     "category": "insurance",
     "source": [
       343,
@@ -331,7 +331,7 @@
   {
     "qid": 25,
     "query": "匯款相關費用由誰負擔？",
-    "query_en": "EN Translation of: 匯款相關費用由誰負擔？",
+    "query_en": "Who bears the fees related to remittance?",
     "category": "insurance",
     "source": [
       591,
@@ -348,7 +348,7 @@
   {
     "qid": 26,
     "query": "被保險人的投保年齡以什麼為計算基準？",
-    "query_en": "EN Translation of: 被保險人的投保年齡以什麼為計算基準？",
+    "query_en": "What is the basis for calculating the insured’s age at the time of insurance application?",
     "category": "insurance",
     "source": [
       147,
@@ -365,7 +365,7 @@
   {
     "qid": 27,
     "query": "繳費期間是指什麼？",
-    "query_en": "EN Translation of: 繳費期間是指什麼？",
+    "query_en": "What does the premium payment period refer to?",
     "category": "insurance",
     "source": [
       476,
@@ -379,7 +379,7 @@
   {
     "qid": 28,
     "query": "本公司於同意承保並收取第一期保險費後開始負保險責任，是否正確？",
-    "query_en": "EN Translation of: 本公司於同意承保並收取第一期保險費後開始負保險責任，是否正確？",
+    "query_en": "Is it correct that the company assumes insurance liability after accepting the application and receiving the first premium payment?",
     "category": "insurance",
     "source": [
       202,
@@ -394,7 +394,7 @@
   {
     "qid": 29,
     "query": "被保險人於本契約有效期間內身故，本公司是否會依本契約約定給付保險金？",
-    "query_en": "EN Translation of: 被保險人於本契約有效期間內身故，本公司是否會依本契約約定給付保險金？",
+    "query_en": "If the insured dies during the validity of the contract, will the company pay the insurance benefit according to the terms of the contract?",
     "category": "insurance",
     "source": [
       527,
@@ -409,7 +409,7 @@
   {
     "qid": 30,
     "query": "要保人要求終止契約時，保險公司應於接到通知後多少時間內償付解約金？",
-    "query_en": "EN Translation of: 要保人要求終止契約時，保險公司應於接到通知後多少時間內償付解約金？",
+    "query_en": "When a policyholder requests to terminate the contract, within how much time must the insurance company pay the surrender value after receiving the notice?",
     "category": "insurance",
     "source": [
       298,
@@ -424,7 +424,7 @@
   {
     "qid": 31,
     "query": "「未滿十五足歲的被保險人在滿十五足歲前死亡，其身故保險金會變更為什麼？」",
-    "query_en": "EN Translation of: 「未滿十五足歲的被保險人在滿十五足歲前死亡，其身故保險金會變更為什麼？」",
+    "query_en": "If the insured, who is under fifteen full years of age, dies before reaching fifteen, what will the death benefit be changed to?",
     "category": "insurance",
     "source": [
       439,
@@ -436,7 +436,7 @@
   {
     "qid": 32,
     "query": "受益人申領「身故保險金」或喪葬費用保險金時應檢具哪些文件？",
-    "query_en": "EN Translation of: 受益人申領「身故保險金」或喪葬費用保險金時應檢具哪些文件？",
+    "query_en": "What documents must a beneficiary provide when claiming death or funeral insurance benefits?",
     "category": "insurance",
     "source": [
       99,
@@ -453,7 +453,7 @@
   {
     "qid": 33,
     "query": "「被保險人在第四保單年度起，若成為完全失能，保險公司將按什麼金額給付完全失能保險金？」",
-    "query_en": "EN Translation of: 「被保險人在第四保單年度起，若成為完全失能，保險公司將按什麼金額給付完全失能保險金？」",
+    "query_en": "If the insured becomes totally disabled starting from the fourth policy year, what amount will the insurance company pay as the total disability insurance benefit?",
     "category": "insurance",
     "source": [
       434,
@@ -464,7 +464,7 @@
   {
     "qid": 34,
     "query": "受益人申領「完全失能保險金」時需要檢具哪些文件？",
-    "query_en": "EN Translation of: 受益人申領「完全失能保險金」時需要檢具哪些文件？",
+    "query_en": "What documents are required when a beneficiary applies for the Permanent Disability benefit?",
     "category": "insurance",
     "source": [
       387,
@@ -481,7 +481,7 @@
   {
     "qid": 35,
     "query": "要保人選擇改為「展期定期保險」當時，本公司將以什麼金額辦理？",
-    "query_en": "EN Translation of: 要保人選擇改為「展期定期保險」當時，本公司將以什麼金額辦理？",
+    "query_en": "When the policyholder chooses to convert to extended term insurance, what amount will the company use for the conversion?",
     "category": "insurance",
     "source": [
       502,
@@ -496,7 +496,7 @@
   {
     "qid": 36,
     "query": "要保人的住所有變更時，應以何種方式通知本公司?",
-    "query_en": "EN Translation of: 要保人的住所有變更時，應以何種方式通知本公司?",
+    "query_en": "When the policyholder’s address changes, in what manner should they notify the company?",
     "category": "insurance",
     "source": [
       148,
@@ -509,7 +509,7 @@
   {
     "qid": 37,
     "query": "本契約內容的變更，或記載事項的增刪，是否需要要保人與本公司雙方書面或其他約定方式同意？",
-    "query_en": "EN Translation of: 本契約內容的變更，或記載事項的增刪，是否需要要保人與本公司雙方書面或其他約定方式同意？",
+    "query_en": "Do changes to the contract content or additions/deletions of recorded items require written or otherwise agreed-upon consent from both the policyholder and the company?",
     "category": "insurance",
     "source": [
       178,
@@ -524,7 +524,7 @@
   {
     "qid": 38,
     "query": "第二期以後的分期保險費到期未交付時，本公司應如何處理？",
-    "query_en": "EN Translation of: 第二期以後的分期保險費到期未交付時，本公司應如何處理？",
+    "query_en": "How will the company handle overdue installment premiums after the second payment?",
     "category": "insurance",
     "source": [
       189,
@@ -537,7 +537,7 @@
   {
     "qid": 39,
     "query": "被保險人於同一項手術或特定處置中之同一治療位置，於同一保單年度內接受二次或以上之手術或特定處置治療時，本公司會給付幾次手術暨特定處置醫療保險金？",
-    "query_en": "EN Translation of: 被保險人於同一項手術或特定處置中之同一治療位置，於同一保單年度內接受二次或以上之手術或特定處置治療時，本公司會給付幾次手術暨特定處置醫療保險金？",
+    "query_en": "If the insured receives two or more surgeries or specified treatments at the same treatment site within the same policy year, how many times will the company pay the surgical and specified treatment benefit?",
     "category": "insurance",
     "source": [
       439,
@@ -549,7 +549,7 @@
   {
     "qid": 40,
     "query": "被保險人於繳費期間內身故，公司如何處理當期已繳付之未滿期保險費？",
-    "query_en": "EN Translation of: 被保險人於繳費期間內身故，公司如何處理當期已繳付之未滿期保險費？",
+    "query_en": "If the insured dies during the premium payment period, how will the company handle the unearned premiums already paid for that period?",
     "category": "insurance",
     "source": [
       578,
@@ -559,7 +559,7 @@
   {
     "qid": 41,
     "query": "被保險人若於出院後十四日內因同一疾病或傷害於同一醫院再次住院，保險金給付將如何計算？",
-    "query_en": "EN Translation of: 被保險人若於出院後十四日內因同一疾病或傷害於同一醫院再次住院，保險金給付將如何計算？",
+    "query_en": "If the insured is re-hospitalized at the same hospital within 14 days after discharge due to the same illness or injury, how will the insurance benefit be calculated?",
     "category": "insurance",
     "source": [
       40,
@@ -576,7 +576,7 @@
   {
     "qid": 42,
     "query": "要保人在訂立本契約時，對要保書書面詢問的告知事項應如何處理？",
-    "query_en": "EN Translation of: 要保人在訂立本契約時，對要保書書面詢問的告知事項應如何處理？",
+    "query_en": "How should the policyholder handle the disclosure items in the written application at the time of signing this contract?",
     "category": "insurance",
     "source": [
       325,
@@ -590,7 +590,7 @@
   {
     "qid": 43,
     "query": "契約終止後，本公司應於接到通知後多久內償付解約金？",
-    "query_en": "EN Translation of: 契約終止後，本公司應於接到通知後多久內償付解約金？",
+    "query_en": "After the contract is terminated, how soon should the company pay the surrender value upon receiving the notice?",
     "category": "insurance",
     "source": [
       282,
@@ -605,7 +605,7 @@
   {
     "qid": 44,
     "query": "要保人申請豁免保險費時，需要出具哪些文件？",
-    "query_en": "EN Translation of: 要保人申請豁免保險費時，需要出具哪些文件？",
+    "query_en": "What documents are required when a policyholder applies for a premium waiver?",
     "category": "insurance",
     "source": [
       172,
@@ -622,7 +622,7 @@
   {
     "qid": 45,
     "query": "受益人申領「身故保險金」或喪葬費用保險金時，應檢具哪些文件？",
-    "query_en": "EN Translation of: 受益人申領「身故保險金」或喪葬費用保險金時，應檢具哪些文件？",
+    "query_en": "What documents must the beneficiary submit when claiming death or funeral insurance benefits?",
     "category": "insurance",
     "source": [
       537,
@@ -638,7 +638,7 @@
   {
     "qid": 46,
     "query": "要保人在變更住所時應如何通知本公司?",
-    "query_en": "EN Translation of: 要保人在變更住所時應如何通知本公司?",
+    "query_en": "How should the policyholder notify the company when changing their address?",
     "category": "insurance",
     "source": [
       625,
@@ -650,7 +650,7 @@
   {
     "qid": 47,
     "query": "保單年度數是如何計算的?",
-    "query_en": "EN Translation of: 保單年度數是如何計算的?",
+    "query_en": "How is the number of policy years calculated?",
     "category": "insurance",
     "source": [
       620,
@@ -666,7 +666,7 @@
   {
     "qid": 48,
     "query": "問題: '本契約中，保險費之收取或退還、支付或返還保險單借款等款項收付的貨幣單位是什麼?'",
-    "query_en": "EN Translation of: 問題: '本契約中，保險費之收取或退還、支付或返還保險單借款等款項收付的貨幣單位是什麼?'",
+    "query_en": "What is the currency unit used for collecting or refunding premiums and for disbursing or repaying policy loans in this contract?'",
     "category": "insurance",
     "source": [
       546,
@@ -683,7 +683,7 @@
   {
     "qid": 49,
     "query": "要保人或受益人交付各款項時，應以何種方式交付？",
-    "query_en": "EN Translation of: 要保人或受益人交付各款項時，應以何種方式交付？",
+    "query_en": "In what manner should the policyholder or beneficiary make payments when delivering funds?",
     "category": "insurance",
     "source": [
       482,
@@ -699,7 +699,7 @@
   {
     "qid": 50,
     "query": "要保人若於停止效力之日起六個月內提出復效申請，契約效力從何時開始恢復？",
-    "query_en": "EN Translation of: 要保人若於停止效力之日起六個月內提出復效申請，契約效力從何時開始恢復？",
+    "query_en": "If the policyholder applies for reinstatement within six months from the date of lapse, from when will the contract become effective again?",
     "category": "insurance",
     "source": [
       528,
@@ -712,7 +712,7 @@
   {
     "qid": 51,
     "query": "聯電在2023年第1季的營業利益是多少？",
-    "query_en": "EN Translation of: 聯電在2023年第1季的營業利益是多少？",
+    "query_en": "What was UMC’s operating profit in the first quarter of 2023?",
     "category": "finance",
     "source": [
       61,
@@ -725,7 +725,7 @@
   {
     "qid": 52,
     "query": "光寶科技股份有限公司2023年第1季的合併財務報告中，部分非重要子公司未經會計師核閱的資產總額占合併資產總額的百分比是多少？",
-    "query_en": "EN Translation of: 光寶科技股份有限公司2023年第1季的合併財務報告中，部分非重要子公司未經會計師核閱的資產總額占合併資產總額的百分比是多少？",
+    "query_en": "In LiteOn Technology Corporation’s Q1 2023 consolidated financial report, what percentage of total consolidated assets was held by certain non-significant subsidiaries whose assets were not reviewed by auditors?",
     "category": "finance",
     "source": [
       395,
@@ -741,7 +741,7 @@
   {
     "qid": 53,
     "query": "長榮於2022年第3季的合併權益變動表中，歸屬於母公司業主之本期綜合損益總額為多少新台幣仟元？",
-    "query_en": "EN Translation of: 長榮於2022年第3季的合併權益變動表中，歸屬於母公司業主之本期綜合損益總額為多少新台幣仟元？",
+    "query_en": "In Evergreen Marine's Q3 2022 consolidated statement of changes in equity, what was the total comprehensive income attributable to the parent company's owners in thousands of TWD?",
     "category": "finance",
     "source": [
       178,
@@ -757,7 +757,7 @@
   {
     "qid": 54,
     "query": "亞德客-KY公司在2022年第3季的投資活動的淨現金流出是多少？",
-    "query_en": "EN Translation of: 亞德客-KY公司在2022年第3季的投資活動的淨現金流出是多少？",
+    "query_en": "What was the net cash outflow from investing activities for Airtac-KY in the third quarter of 2022?",
     "category": "finance",
     "source": [
       969,
@@ -772,7 +772,7 @@
   {
     "qid": 55,
     "query": "2022年第3季，聯電公司及子公司因進口機器設備開立但未使用的信用狀約為多少億元？",
-    "query_en": "EN Translation of: 2022年第3季，聯電公司及子公司因進口機器設備開立但未使用的信用狀約為多少億元？",
+    "query_en": "In Q3 2022, what was the approximate amount in billions of NTD for unused letters of credit opened by UMC and its subsidiaries for importing machinery and equipment?",
     "category": "finance",
     "source": [
       98,
@@ -785,7 +785,7 @@
   {
     "qid": 56,
     "query": "國巨2022年第三季關係人交易中，與關聯企業相關的銷貨收入是多少？",
-    "query_en": "EN Translation of: 國巨2022年第三季關係人交易中，與關聯企業相關的銷貨收入是多少？",
+    "query_en": "In Q3 2022, what was the sales revenue related to affiliated enterprises in Yageo’s related party transactions?",
     "category": "finance",
     "source": [
       927,
@@ -800,7 +800,7 @@
   {
     "qid": 57,
     "query": "截至2023年第3季，智邦公司因進出口貨物需要由銀行出具保證函予海關之金額為多少？",
-    "query_en": "EN Translation of: 截至2023年第3季，智邦公司因進出口貨物需要由銀行出具保證函予海關之金額為多少？",
+    "query_en": "As of Q3 2023, what was the amount that Accton required banks to provide as guarantee letters to customs for import and export goods?",
     "category": "finance",
     "source": [
       410,
@@ -816,7 +816,7 @@
   {
     "qid": 58,
     "query": "聯電在2023年第3季的合併權益總額是多少？",
-    "query_en": "EN Translation of: 聯電在2023年第3季的合併權益總額是多少？",
+    "query_en": "hat was UMC’s total consolidated equity in Q3 2023?",
     "category": "finance",
     "source": [
       328,
@@ -831,7 +831,7 @@
   {
     "qid": 59,
     "query": "台化在2023年第1季的本期其他綜合損益總額是多少？",
-    "query_en": "EN Translation of: 台化在2023年第1季的本期其他綜合損益總額是多少？",
+    "query_en": "What was the total amount of other comprehensive income for Formosa Chemicals in the first quarter of 2023?",
     "category": "finance",
     "source": [
       639,
@@ -846,7 +846,7 @@
   {
     "qid": 60,
     "query": "研華在2023年第3季為興建林口園區第三期工程已簽約但尚未發生之資本支出總計是多少？",
-    "query_en": "EN Translation of: 研華在2023年第3季為興建林口園區第三期工程已簽約但尚未發生之資本支出總計是多少？",
+    "query_en": "As of Q3 2023, what was the total amount of contracted but not yet incurred capital expenditures for Advantech's Phase III construction of the Linkou campus?",
     "category": "finance",
     "source": [
       415,
@@ -862,7 +862,7 @@
   {
     "qid": 61,
     "query": "鴻海在2023年第1季度中，集團存貨之帳面金額是多少？",
-    "query_en": "EN Translation of: 鴻海在2023年第1季度中，集團存貨之帳面金額是多少？",
+    "query_en": "What was the carrying amount of inventory for the Hon Hai Group in the first quarter of 2023?",
     "category": "finance",
     "source": [
       41,
@@ -877,7 +877,7 @@
   {
     "qid": 62,
     "query": "2022年第3季聯發科的現金及約當現金金額是多少？",
-    "query_en": "EN Translation of: 2022年第3季聯發科的現金及約當現金金額是多少？",
+    "query_en": "What was the amount of cash and cash equivalents for MediaTek in the third quarter of 2022?",
     "category": "finance",
     "source": [
       89,
@@ -891,7 +891,7 @@
   {
     "qid": 63,
     "query": "聯發科2023年第1季的營業活動之淨現金流入是多少？",
-    "query_en": "EN Translation of: 聯發科2023年第1季的營業活動之淨現金流入是多少？",
+    "query_en": "What was the net cash inflow from operating activities for MediaTek in the first quarter of 2023?",
     "category": "finance",
     "source": [
       385,
@@ -906,7 +906,7 @@
   {
     "qid": 64,
     "query": "在聯發科2022年第1季的合併財務報表中，有哪幾項專利侵權訴訟被提及，涉及哪些專利號碼？",
-    "query_en": "EN Translation of: 在聯發科2022年第1季的合併財務報表中，有哪幾項專利侵權訴訟被提及，涉及哪些專利號碼？",
+    "query_en": "Which patent infringement lawsuits were mentioned in MediaTek's Q1 2022 consolidated financial report, and what were the involved patent numbers?",
     "category": "finance",
     "source": [
       706,
@@ -920,7 +920,7 @@
   {
     "qid": 65,
     "query": "在鴻海2023年第1季的文件中，提到哪些部門被辨認為應報導部門？",
-    "query_en": "EN Translation of: 在鴻海2023年第1季的文件中，提到哪些部門被辨認為應報導部門？",
+    "query_en": "Which departments were identified as reportable segments in Hon Hai’s Q1 2023 report?",
     "category": "finance",
     "source": [
       41,
@@ -937,7 +937,7 @@
   {
     "qid": 66,
     "query": "瑞昱在2022年第1季的財報中提到，BANDSPEED, LLC於哪一地區法院控告瑞昱產品侵害其專利權？",
-    "query_en": "EN Translation of: 瑞昱在2022年第1季的財報中提到，BANDSPEED, LLC於哪一地區法院控告瑞昱產品侵害其專利權？",
+    "query_en": "According to Realtek’s Q1 2022 financial report, in which district court did BANDSPEED, LLC sue Realtek for patent infringement?",
     "category": "finance",
     "source": [
       545,
@@ -951,7 +951,7 @@
   {
     "qid": 67,
     "query": "在2022年第3季度，瑞昱公司有哪些專利訴訟案件被提起且目前正在處理中？",
-    "query_en": "EN Translation of: 在2022年第3季度，瑞昱公司有哪些專利訴訟案件被提起且目前正在處理中？",
+    "query_en": "Which patent litigation cases were filed against Realtek in Q3 2022 and are currently ongoing?",
     "category": "finance",
     "source": [
       994,
@@ -966,7 +966,7 @@
   {
     "qid": 68,
     "query": "請問光寶科在2023年第3季的合併資產負債表中，總資產的金額是多少？",
-    "query_en": "EN Translation of: 請問光寶科在2023年第3季的合併資產負債表中，總資產的金額是多少？",
+    "query_en": "What was the total assets amount listed in Lite-On’s Q3 2023 consolidated balance sheet?",
     "category": "finance",
     "source": [
       26,
@@ -982,7 +982,7 @@
   {
     "qid": 69,
     "query": "瑞昱2022年第1季合併財務報表中提到的本期淨利是多少？",
-    "query_en": "EN Translation of: 瑞昱2022年第1季合併財務報表中提到的本期淨利是多少？",
+    "query_en": "What was the net income for the period mentioned in Realtek’s Q1 2022 consolidated financial report?",
     "category": "finance",
     "source": [
       545,
@@ -996,7 +996,7 @@
   {
     "qid": 70,
     "query": "智邦科技股份有限公司2023年第1季的綜合損益總額是多少？",
-    "query_en": "EN Translation of: 智邦科技股份有限公司2023年第1季的綜合損益總額是多少？",
+    "query_en": "What was the total comprehensive income for Accton Technology Corporation in the first quarter of 2023?",
     "category": "finance",
     "source": [
       298,
@@ -1009,7 +1009,7 @@
   {
     "qid": 71,
     "query": "中鋼公司於2022年第1季的鋼鐵部門和其他部門的來自外部客戶收入是多少？",
-    "query_en": "EN Translation of: 中鋼公司於2022年第1季的鋼鐵部門和其他部門的來自外部客戶收入是多少？",
+    "query_en": "What was the revenue from external customers for the steel and other segments of China Steel Corporation in Q1 2022?",
     "category": "finance",
     "source": [
       321,
@@ -1024,7 +1024,7 @@
   {
     "qid": 72,
     "query": "光寶科在2022年第1季的合併財務報告是何時經董事會通過並發布的？",
-    "query_en": "EN Translation of: 光寶科在2022年第1季的合併財務報告是何時經董事會通過並發布的？",
+    "query_en": "When was LiteOn's Q1 2022 consolidated financial report approved by the board and released?",
     "category": "finance",
     "source": [
       442,
@@ -1038,7 +1038,7 @@
   {
     "qid": 73,
     "query": "華碩在2022年第1季度的非控制權益餘額是多少？",
-    "query_en": "EN Translation of: 華碩在2022年第1季度的非控制權益餘額是多少？",
+    "query_en": "What was the non-controlling interest balance for ASUS in the first quarter of 2022?",
     "category": "finance",
     "source": [
       295,
@@ -1054,7 +1054,7 @@
   {
     "qid": 74,
     "query": "和泰車在2022年第3季度的基本每股盈餘(虧損)是多少？",
-    "query_en": "EN Translation of: 和泰車在2022年第3季度的基本每股盈餘(虧損)是多少？",
+    "query_en": "What was the basic earnings (loss) per share for Hotai Motor in Q3 2022?",
     "category": "finance",
     "source": [
       714,
@@ -1071,7 +1071,7 @@
   {
     "qid": 75,
     "query": "在2022年第3季，長榮公司有無從事衍生工具交易的情事？",
-    "query_en": "EN Translation of: 在2022年第3季，長榮公司有無從事衍生工具交易的情事？",
+    "query_en": "Did Evergreen Marine engage in any derivative instrument transactions in Q3 2022?",
     "category": "finance",
     "source": [
       178,
@@ -1088,7 +1088,7 @@
   {
     "qid": 76,
     "query": "研華股份有限公司及子公司在2022年第1季度的營業收入是多少？",
-    "query_en": "EN Translation of: 研華股份有限公司及子公司在2022年第1季度的營業收入是多少？",
+    "query_en": "What was the operating revenue of Advantech Co., Ltd. and its subsidiaries in Q1 2022?",
     "category": "finance",
     "source": [
       778,
@@ -1103,7 +1103,7 @@
   {
     "qid": 77,
     "query": "台泥在2022年第一季度中，所記錄的浮動利率工具在1至5年內到期的金融負債金額是多少？",
-    "query_en": "EN Translation of: 台泥在2022年第一季度中，所記錄的浮動利率工具在1至5年內到期的金融負債金額是多少？",
+    "query_en": "What was the amount of financial liabilities from floating rate instruments due within 1 to 5 years recorded by Taiwan Cement in Q1 2022?",
     "category": "finance",
     "source": [
       977,
@@ -1117,7 +1117,7 @@
   {
     "qid": 78,
     "query": "智邦科技股份有限公司在2023年第三季的綜合損益表中，顯示的稅前淨利金額是多少？",
-    "query_en": "EN Translation of: 智邦科技股份有限公司在2023年第三季的綜合損益表中，顯示的稅前淨利金額是多少？",
+    "query_en": "What was the pre-tax net income shown in Accton’s Q3 2023 income statement?",
     "category": "finance",
     "source": [
       410,
@@ -1132,7 +1132,7 @@
   {
     "qid": 79,
     "query": "和泰車公司在2022年第3季產品出售當期列為銷貨收入之何項？",
-    "query_en": "EN Translation of: 和泰車公司在2022年第3季產品出售當期列為銷貨收入之何項？",
+    "query_en": "What item was recognized as sales revenue from product sales by Hotai Motor in Q3 2022?",
     "category": "finance",
     "source": [
       714,
@@ -1148,7 +1148,7 @@
   {
     "qid": 80,
     "query": "瑞昱半導體股份有限公司在2022年第3季的淨利是多少？",
-    "query_en": "EN Translation of: 瑞昱半導體股份有限公司在2022年第3季的淨利是多少？",
+    "query_en": "What was the net income for Realtek Semiconductor Corporation in Q3 2022?",
     "category": "finance",
     "source": [
       994,
@@ -1162,7 +1162,7 @@
   {
     "qid": 81,
     "query": "在台達電2023年第3季的合併資產負債表中，現金及約當現金的金額是多少？",
-    "query_en": "EN Translation of: 在台達電2023年第3季的合併資產負債表中，現金及約當現金的金額是多少？",
+    "query_en": "What was the amount of cash and cash equivalents in Delta Electronics’ consolidated balance sheet for Q3 2023?",
     "category": "finance",
     "source": [
       58,
@@ -1175,7 +1175,7 @@
   {
     "qid": 82,
     "query": "研華公司在2022年第3季的合併總損益是多少？",
-    "query_en": "EN Translation of: 研華公司在2022年第3季的合併總損益是多少？",
+    "query_en": "What was the total comprehensive income for Advantech in Q3 2022?",
     "category": "finance",
     "source": [
       590,
@@ -1190,7 +1190,7 @@
   {
     "qid": 83,
     "query": "台達電2022年第1季的營業活動之淨現金流入為多少？",
-    "query_en": "EN Translation of: 台達電2022年第1季的營業活動之淨現金流入為多少？",
+    "query_en": "What was the net cash inflow from operating activities for Delta Electronics in Q1 2022?",
     "category": "finance",
     "source": [
       74,
@@ -1206,7 +1206,7 @@
   {
     "qid": 84,
     "query": "和泰車在2022年第1季度的保留結論指出，部分非重要子公司及採用權益法之投資之財務報表未經會計師核閱的影響是什麼？",
-    "query_en": "EN Translation of: 和泰車在2022年第1季度的保留結論指出，部分非重要子公司及採用權益法之投資之財務報表未經會計師核閱的影響是什麼？",
+    "query_en": "What was the impact noted in Hotai Motor’s Q1 2022 review conclusion regarding unaudited financial statements of certain non-significant subsidiaries and equity-method investments?",
     "category": "finance",
     "source": [
       628,
@@ -1223,7 +1223,7 @@
   {
     "qid": 85,
     "query": "國巨股份有限公司在2022年第3季的合併財務報表中，有關公司在110年6月董事會通過並在9月股東臨時會通過與哪家公司簽署股份轉換契約？",
-    "query_en": "EN Translation of: 國巨股份有限公司在2022年第3季的合併財務報表中，有關公司在110年6月董事會通過並在9月股東臨時會通過與哪家公司簽署股份轉換契約？",
+    "query_en": "According to Yageo’s Q3 2022 consolidated financial report, which company did it sign a share swap agreement with, as approved by the board in June 2021 and by the shareholders’ meeting in September?",
     "category": "finance",
     "source": [
       927,
@@ -1238,7 +1238,7 @@
   {
     "qid": 86,
     "query": "瑞昱在2023年第3季有關涉於哪些專利訴訟，並且這些案件目前進展如何？",
-    "query_en": "EN Translation of: 瑞昱在2023年第3季有關涉於哪些專利訴訟，並且這些案件目前進展如何？",
+    "query_en": "Which patent litigation cases was Realtek involved in during Q3 2023, and what is the current status of these cases?",
     "category": "finance",
     "source": [
       658,
@@ -1252,7 +1252,7 @@
   {
     "qid": 87,
     "query": "2023年台泥第1季的合併公司營運部門中，哪一個部門的營運損益為負數？",
-    "query_en": "EN Translation of: 2023年台泥第1季的合併公司營運部門中，哪一個部門的營運損益為負數？",
+    "query_en": "Which operating segment of Taiwan Cement recorded a negative operating profit in Q1 2023?",
     "category": "finance",
     "source": [
       747,
@@ -1268,7 +1268,7 @@
   {
     "qid": 88,
     "query": "聯電在2023年第3季合併財務報告中提到，公司及子公司截至一一二年九月三十日止，已開立但未使用信用狀的金額約是多少？",
-    "query_en": "EN Translation of: 聯電在2023年第3季合併財務報告中提到，公司及子公司截至一一二年九月三十日止，已開立但未使用信用狀的金額約是多少？",
+    "query_en": "According to UMC’s Q3 2023 consolidated financial report, what was the approximate amount of unused letters of credit opened by the company and its subsidiaries as of September 30, 2023?",
     "category": "finance",
     "source": [
       328,
@@ -1282,7 +1282,7 @@
   {
     "qid": 89,
     "query": "中華電信股份有限公司於2023年第3季的合併資產負債表中，流動資產總計為多少？",
-    "query_en": "EN Translation of: 中華電信股份有限公司於2023年第3季的合併資產負債表中，流動資產總計為多少？",
+    "query_en": "What was the total current assets in Chunghwa Telecom’s consolidated balance sheet for Q3 2023?",
     "category": "finance",
     "source": [
       902,
@@ -1298,7 +1298,7 @@
   {
     "qid": 90,
     "query": "和泰車在2023年第一季度的基本每股盈餘是多少？",
-    "query_en": "EN Translation of: 和泰車在2023年第一季度的基本每股盈餘是多少？",
+    "query_en": "What was Hotai Motor’s basic earnings per share in the first quarter of 2023?",
     "category": "finance",
     "source": [
       429,
@@ -1315,7 +1315,7 @@
   {
     "qid": 91,
     "query": "聯發科2023年第1季的合併財務報表中提到，哪個附表包含了應收關係人款項達新台幣一億元或實收資本額百分之二十以上的詳細資訊？",
-    "query_en": "EN Translation of: 聯發科2023年第1季的合併財務報表中提到，哪個附表包含了應收關係人款項達新台幣一億元或實收資本額百分之二十以上的詳細資訊？",
+    "query_en": "According to MediaTek’s Q1 2023 consolidated financial report, which schedule contains details of accounts receivable from related parties amounting to NT$100 million or more, or exceeding 20% of paid-in capital?",
     "category": "finance",
     "source": [
       385,
@@ -1330,7 +1330,7 @@
   {
     "qid": 92,
     "query": "國巨股份有限公司於2023年第3季的合併權益變動表中，112年9月30日的歸屬於本公司業主之權益總額是多少？",
-    "query_en": "EN Translation of: 國巨股份有限公司於2023年第3季的合併權益變動表中，112年9月30日的歸屬於本公司業主之權益總額是多少？",
+    "query_en": "What was the total equity attributable to the owners of Yageo Corporation as of September 30, 2023, according to the Q3 2023 consolidated statement of changes in equity?",
     "category": "finance",
     "source": [
       428,
@@ -1344,7 +1344,7 @@
   {
     "qid": 93,
     "query": "中鋼在2022年第1季提供予銀行作為擔保的資產總帳面價值是多少？",
-    "query_en": "EN Translation of: 中鋼在2022年第1季提供予銀行作為擔保的資產總帳面價值是多少？",
+    "query_en": "What was the total book value of assets provided by China Steel as collateral to banks in Q1 2022?",
     "category": "finance",
     "source": [
       321,
@@ -1360,7 +1360,7 @@
   {
     "qid": 94,
     "query": "智邦公司在2022年第3季的合併財務報告中，110年度的股東現金股利的金額是多少？",
-    "query_en": "EN Translation of: 智邦公司在2022年第3季的合併財務報告中，110年度的股東現金股利的金額是多少？",
+    "query_en": "According to Accton’s Q3 2022 consolidated financial report, what was the amount of shareholder cash dividends for fiscal year 2021?",
     "category": "finance",
     "source": [
       456,
@@ -1374,7 +1374,7 @@
   {
     "qid": 95,
     "query": "光寶科在2021年第3季的合併報告中，關於匯率交換合約的流入和流出金額分別是多少？",
-    "query_en": "EN Translation of: 光寶科在2021年第3季的合併報告中，關於匯率交換合約的流入和流出金額分別是多少？",
+    "query_en": "In LiteOn’s Q3 2021 consolidated report, what were the inflow and outflow amounts related to foreign exchange swap contracts?",
     "category": "finance",
     "source": [
       968,
@@ -1391,7 +1391,7 @@
   {
     "qid": 96,
     "query": "請問台達電在2022年第1季度的透過損益按公允價值衡量之金融資產-流動的金額是多少？",
-    "query_en": "EN Translation of: 請問台達電在2022年第1季度的透過損益按公允價值衡量之金融資產-流動的金額是多少？",
+    "query_en": "What was the amount of current financial assets measured at fair value through profit or loss for Delta Electronics in Q1 2022?",
     "category": "finance",
     "source": [
       74,
@@ -1406,7 +1406,7 @@
   {
     "qid": 97,
     "query": "在國巨2023年第1季合併綜合損益表中，本期綜合損益總額為多少？",
-    "query_en": "EN Translation of: 在國巨2023年第1季合併綜合損益表中，本期綜合損益總額為多少？",
+    "query_en": "What was the total comprehensive income for the period in Yageo’s Q1 2023 consolidated income statement?",
     "category": "finance",
     "source": [
       205,
@@ -1422,7 +1422,7 @@
   {
     "qid": 98,
     "query": "台達電2023年第三季度在營業活動中支付的所得稅總額是多少？",
-    "query_en": "EN Translation of: 台達電2023年第三季度在營業活動中支付的所得稅總額是多少？",
+    "query_en": "What was the total income tax paid during operating activities by Delta Electronics in Q3 2023?",
     "category": "finance",
     "source": [
       58,
@@ -1437,7 +1437,7 @@
   {
     "qid": 99,
     "query": "中鋼在2022年第3季的綜合損益總額是多少？",
-    "query_en": "EN Translation of: 中鋼在2022年第3季的綜合損益總額是多少？",
+    "query_en": "What was the total comprehensive income for China Steel in Q3 2022?",
     "category": "finance",
     "source": [
       283,
@@ -1451,7 +1451,7 @@
   {
     "qid": 100,
     "query": "鴻海2022年第1季各部門外部收入分別是多少?",
-    "query_en": "EN Translation of: 鴻海2022年第1季各部門外部收入分別是多少?",
+    "query_en": "What was the external revenue for each department of Hon Hai in Q1 2022?",
     "category": "finance",
     "source": [
       682,
@@ -1468,7 +1468,7 @@
   {
     "qid": 101,
     "query": "有關留學生在學期間，應每年向本行繳交留學生成績單或註冊證明等在學證明，及入出國及移民署核發之該留學生入出國日期證明書等相關文件，需於每年幾月繳交且如何繳交 ？",
-    "query_en": "EN Translation of: 有關留學生在學期間，應每年向本行繳交留學生成績單或註冊證明等在學證明，及入出國及移民署核發之該留學生入出國日期證明書等相關文件，需於每年幾月繳交且如何繳交 ？",
+    "query_en": "During their studies, when and how should international students submit academic transcripts or enrollment certificates and entry/exit date proof issued by the immigration agency to the bank each year?",
     "category": "faq",
     "source": [
       69,
@@ -1491,7 +1491,7 @@
   {
     "qid": 102,
     "query": "要怎麼儲值玉山電子支付帳戶",
-    "query_en": "EN Translation of: 要怎麼儲值玉山電子支付帳戶",
+    "query_en": "How can I add funds to my E.SUN ePayment account?",
     "category": "faq",
     "source": [
       186,
@@ -1514,7 +1514,7 @@
   {
     "qid": 103,
     "query": "請問如何取消LINE個人化通知服務?",
-    "query_en": "EN Translation of: 請問如何取消LINE個人化通知服務?",
+    "query_en": "How can I cancel the personalized notification service on LINE?",
     "category": "faq",
     "source": [
       117,
@@ -1537,7 +1537,7 @@
   {
     "qid": 104,
     "query": "在玉山全球通確認提領後，可以取消交易嗎?",
-    "query_en": "EN Translation of: 在玉山全球通確認提領後，可以取消交易嗎?",
+    "query_en": "Can I cancel a transaction after confirming a withdrawal via E.SUN Global Pass?",
     "category": "faq",
     "source": [
       116,
@@ -1560,7 +1560,7 @@
   {
     "qid": 105,
     "query": "若網路投保服務中斷，玉山銀行會如何通知客戶？",
-    "query_en": "EN Translation of: 若網路投保服務中斷，玉山銀行會如何通知客戶？",
+    "query_en": "If the online insurance service is interrupted, how will E.SUN Bank notify its customers?",
     "category": "faq",
     "source": [
       467,
@@ -1583,7 +1583,7 @@
   {
     "qid": 106,
     "query": "在什麼情況下，扣款月繳月省的房貸才算成功?",
-    "query_en": "EN Translation of: 在什麼情況下，扣款月繳月省的房貸才算成功?",
+    "query_en": "Under what conditions is the monthly deduction for the Pay Monthly, Save Monthly mortgage considered successful?",
     "category": "faq",
     "source": [
       418,
@@ -1606,7 +1606,7 @@
   {
     "qid": 107,
     "query": "我收到補件通知，如何完成補件？",
-    "query_en": "EN Translation of: 我收到補件通知，如何完成補件？",
+    "query_en": "I received a document supplement notification. How do I complete the required submission?",
     "category": "faq",
     "source": [
       419,
@@ -1629,7 +1629,7 @@
   {
     "qid": 108,
     "query": "哪些交易可以使用玉山銀行人臉辨識？",
-    "query_en": "EN Translation of: 哪些交易可以使用玉山銀行人臉辨識？",
+    "query_en": "Which transactions can be completed using E.SUN Bank’s facial recognition system?",
     "category": "faq",
     "source": [
       317,
@@ -1652,7 +1652,7 @@
   {
     "qid": 109,
     "query": "透過哪些步驟可以更新刷臉ID?",
-    "query_en": "EN Translation of: 透過哪些步驟可以更新刷臉ID?",
+    "query_en": "What steps are required to update the facial recognition ID?",
     "category": "faq",
     "source": [
       556,
@@ -1675,7 +1675,7 @@
   {
     "qid": 110,
     "query": "可以在哪裡收到信貸契約?",
-    "query_en": "EN Translation of: 可以在哪裡收到信貸契約?",
+    "query_en": "Where can I receive the loan agreement?",
     "category": "faq",
     "source": [
       453,
@@ -1698,7 +1698,7 @@
   {
     "qid": 111,
     "query": "無卡提款服務是否可在ATM 機器上開通？",
-    "query_en": "EN Translation of: 無卡提款服務是否可在ATM 機器上開通？",
+    "query_en": "Can the cardless withdrawal service be activated directly on an ATM machine?",
     "category": "faq",
     "source": [
       256,
@@ -1721,7 +1721,7 @@
   {
     "qid": 112,
     "query": "外幣信託贖回時，返還的投資標的幣別如何影響贖回款？",
-    "query_en": "EN Translation of: 外幣信託贖回時，返還的投資標的幣別如何影響贖回款？",
+    "query_en": "When redeeming a foreign currency trust, how does the currency of the returned investment affect the redemption amount?",
     "category": "faq",
     "source": [
       32,
@@ -1744,7 +1744,7 @@
   {
     "qid": 113,
     "query": "存戶申請玉山銀行網路銀行服務的方式有哪些？",
-    "query_en": "EN Translation of: 存戶申請玉山銀行網路銀行服務的方式有哪些？",
+    "query_en": "What are the methods for account holders to apply for E.SUN Bank's online banking services?",
     "category": "faq",
     "source": [
       547,
@@ -1767,7 +1767,7 @@
   {
     "qid": 114,
     "query": " 在玉山電子支付中，手機簡訊密碼最多可以發送幾次？",
-    "query_en": "EN Translation of:  在玉山電子支付中，手機簡訊密碼最多可以發送幾次？",
+    "query_en": "In the E.SUN ePayment system, how many times can a mobile SMS password be sent?",
     "category": "faq",
     "source": [
       290,
@@ -1790,7 +1790,7 @@
   {
     "qid": 115,
     "query": "玉山銀行如何進行縱深防護來保障網路投保安全？",
-    "query_en": "EN Translation of: 玉山銀行如何進行縱深防護來保障網路投保安全？",
+    "query_en": "How does E.SUN Bank implement defense-in-depth to ensure online insurance security?",
     "category": "faq",
     "source": [
       451,
@@ -1813,7 +1813,7 @@
   {
     "qid": 116,
     "query": " 如果註冊後五年內未使用網路投保，會發生什麼情況？",
-    "query_en": "EN Translation of:  如果註冊後五年內未使用網路投保，會發生什麼情況？",
+    "query_en": "What happens if I do not use the online insurance service within five years after registration?",
     "category": "faq",
     "source": [
       587,
@@ -1836,7 +1836,7 @@
   {
     "qid": 117,
     "query": " 因「Android System WebView」元件改版可能會造成什麼問題  ",
-    "query_en": "EN Translation of:  因「Android System WebView」元件改版可能會造成什麼問題  ",
+    "query_en": "What issues might be caused by an update to the Android System WebView component? ",
     "category": "faq",
     "source": [
       513,
@@ -1859,7 +1859,7 @@
   {
     "qid": 118,
     "query": "大陸籍股東是否可以來臺從事證券投資",
-    "query_en": "EN Translation of: 大陸籍股東是否可以來臺從事證券投資",
+    "query_en": "Can shareholders from mainland China engage in securities investment in Taiwan?",
     "category": "faq",
     "source": [
       339,
@@ -1882,7 +1882,7 @@
   {
     "qid": 119,
     "query": " 取消手機號碼收款服務後，是否會影響其他轉帳功能？",
-    "query_en": "EN Translation of:  取消手機號碼收款服務後，是否會影響其他轉帳功能？",
+    "query_en": "Will canceling the mobile number collection service affect other transfer functions?",
     "category": "faq",
     "source": [
       503,
@@ -1905,7 +1905,7 @@
   {
     "qid": 120,
     "query": "留學生在申請貸款時，除了入學證明外，還需提供哪些文件？",
-    "query_en": "EN Translation of: 留學生在申請貸款時，除了入學證明外，還需提供哪些文件？",
+    "query_en": "When applying for a loan, what documents, besides the enrollment certificate, must international students provide?",
     "category": "faq",
     "source": [
       387,
@@ -1928,7 +1928,7 @@
   {
     "qid": 121,
     "query": "有哪些方法可以手動檢查WebATM元件的安裝狀態？",
-    "query_en": "EN Translation of: 有哪些方法可以手動檢查WebATM元件的安裝狀態？",
+    "query_en": "What are the methods to manually check the installation status of the WebATM component?",
     "category": "faq",
     "source": [
       51,
@@ -1951,7 +1951,7 @@
   {
     "qid": 122,
     "query": "如何評估自己的現金流量需求，以判斷是否適合投資海外債券？",
-    "query_en": "EN Translation of: 如何評估自己的現金流量需求，以判斷是否適合投資海外債券？",
+    "query_en": "How can I assess my cash flow needs to determine whether investing in foreign bonds is suitable?",
     "category": "faq",
     "source": [
       60,
@@ -1974,7 +1974,7 @@
   {
     "qid": 123,
     "query": "在PayPal提領過程中，常見的錯誤信息有哪些？如何解決這些問題？",
-    "query_en": "EN Translation of: 在PayPal提領過程中，常見的錯誤信息有哪些？如何解決這些問題？",
+    "query_en": "What are common error messages during the PayPal withdrawal process, and how can they be resolved?",
     "category": "faq",
     "source": [
       482,
@@ -1997,7 +1997,7 @@
   {
     "qid": 124,
     "query": "如果路上撿到信用卡該怎麼辦？",
-    "query_en": "EN Translation of: 如果路上撿到信用卡該怎麼辦？",
+    "query_en": "What should I do if I find a credit card on the street?",
     "category": "faq",
     "source": [
       14,
@@ -2020,7 +2020,7 @@
   {
     "qid": 125,
     "query": "提領PayPal款項到玉山銀行的最低金額是多少？",
-    "query_en": "EN Translation of: 提領PayPal款項到玉山銀行的最低金額是多少？",
+    "query_en": "What is the minimum amount for withdrawing PayPal funds to an E.SUN Bank account?",
     "category": "faq",
     "source": [
       209,
@@ -2043,7 +2043,7 @@
   {
     "qid": 126,
     "query": "網路金融卡收款主打的重點在哪?",
-    "query_en": "EN Translation of: 網路金融卡收款主打的重點在哪?",
+    "query_en": "What is the main selling point of using an internet financial card for receiving payments?",
     "category": "faq",
     "source": [
       162,
@@ -2066,7 +2066,7 @@
   {
     "qid": 127,
     "query": "外幣定存有什麼選擇？怎麼知道利率是多少呢？",
-    "query_en": "EN Translation of: 外幣定存有什麼選擇？怎麼知道利率是多少呢？",
+    "query_en": "What are the options for foreign currency time deposits, and how can I check the interest rates?",
     "category": "faq",
     "source": [
       1,
@@ -2089,7 +2089,7 @@
   {
     "qid": 128,
     "query": "貸款額度和工作報酬相關嗎？金管會又是如何規範？",
-    "query_en": "EN Translation of: 貸款額度和工作報酬相關嗎？金管會又是如何規範？",
+    "query_en": "Is the loan amount related to job compensation, and how is it regulated by the Financial Supervisory Commission?",
     "category": "faq",
     "source": [
       296,
@@ -2112,7 +2112,7 @@
   {
     "qid": 129,
     "query": "刷臉id想要做變更該怎麼做？",
-    "query_en": "EN Translation of: 刷臉id想要做變更該怎麼做？",
+    "query_en": "How can I change my facial recognition ID?",
     "category": "faq",
     "source": [
       152,
@@ -2135,7 +2135,7 @@
   {
     "qid": 130,
     "query": "行動銀行驗證碼是動態產生的嗎？",
-    "query_en": "EN Translation of: 行動銀行驗證碼是動態產生的嗎？",
+    "query_en": "Is the verification code for mobile banking dynamically generated?",
     "category": "faq",
     "source": [
       247,
@@ -2158,7 +2158,7 @@
   {
     "qid": 131,
     "query": "當我使用玉山電子支付跨境網購時，要支付任何什麼費用嗎？",
-    "query_en": "EN Translation of: 當我使用玉山電子支付跨境網購時，要支付任何什麼費用嗎？",
+    "query_en": "Are there any fees when I use E.SUN ePayment for cross-border online shopping?",
     "category": "faq",
     "source": [
       406,
@@ -2181,7 +2181,7 @@
   {
     "qid": 132,
     "query": "行動無卡提款與刷臉提款都有無卡交易密碼，他們有什麼差別嗎?",
-    "query_en": "EN Translation of: 行動無卡提款與刷臉提款都有無卡交易密碼，他們有什麼差別嗎?",
+    "query_en": "Both cardless ATM withdrawals and facial recognition withdrawals use a transaction password—what’s the difference between them?",
     "category": "faq",
     "source": [
       250,
@@ -2204,7 +2204,7 @@
   {
     "qid": 133,
     "query": "註銷刷臉提款服務的步驟有什麼?",
-    "query_en": "EN Translation of: 註銷刷臉提款服務的步驟有什麼?",
+    "query_en": "What are the steps to deactivate the facial recognition withdrawal service?",
     "category": "faq",
     "source": [
       293,
@@ -2227,7 +2227,7 @@
   {
     "qid": 134,
     "query": "要用行動電話變更驗證服務，需要用哪一家電信商的門號？",
-    "query_en": "EN Translation of: 要用行動電話變更驗證服務，需要用哪一家電信商的門號？",
+    "query_en": "To change verification services using a mobile phone, which telecom provider’s number is required?",
     "category": "faq",
     "source": [
       101,
@@ -2250,7 +2250,7 @@
   {
     "qid": 135,
     "query": "誰可以申辦玉山e指信貸",
-    "query_en": "EN Translation of: 誰可以申辦玉山e指信貸",
+    "query_en": "Who is eligible to apply for E.SUN e-Finger Personal Loan?",
     "category": "faq",
     "source": [
       399,
@@ -2273,7 +2273,7 @@
   {
     "qid": 136,
     "query": "綜合存款轉定期存款的起存額是多少",
-    "query_en": "EN Translation of: 綜合存款轉定期存款的起存額是多少",
+    "query_en": "What is the minimum amount required to transfer from a composite deposit to a time deposit?",
     "category": "faq",
     "source": [
       183,
@@ -2296,7 +2296,7 @@
   {
     "qid": 137,
     "query": "外匯申報的步驟有哪些?",
-    "query_en": "EN Translation of: 外匯申報的步驟有哪些?",
+    "query_en": "What are the steps for foreign exchange declaration?",
     "category": "faq",
     "source": [
       281,
@@ -2319,7 +2319,7 @@
   {
     "qid": 138,
     "query": "要怎麼開通簡訊密碼?",
-    "query_en": "EN Translation of: 要怎麼開通簡訊密碼?",
+    "query_en": "How can I activate the SMS password service?",
     "category": "faq",
     "source": [
       82,
@@ -2342,7 +2342,7 @@
   {
     "qid": 139,
     "query": "為什麼會出現080305錯誤代碼",
-    "query_en": "EN Translation of: 為什麼會出現080305錯誤代碼",
+    "query_en": "Why does the error code 080305 appear?",
     "category": "faq",
     "source": [
       480,
@@ -2365,7 +2365,7 @@
   {
     "qid": 140,
     "query": "什麼時間可以修改保單地址",
-    "query_en": "EN Translation of: 什麼時間可以修改保單地址",
+    "query_en": "When can I update the address on my insurance policy?",
     "category": "faq",
     "source": [
       517,
@@ -2388,7 +2388,7 @@
   {
     "qid": 141,
     "query": "我一年前在玉山開戶但沒領存摺，為什麼我領了存摺後都沒有之前的明細?",
-    "query_en": "EN Translation of: 我一年前在玉山開戶但沒領存摺，為什麼我領了存摺後都沒有之前的明細?",
+    "query_en": "I opened an account at E.SUN a year ago but didn’t collect the passbook. Why are the previous transaction records missing after I picked it up?",
     "category": "faq",
     "source": [
       527,
@@ -2411,7 +2411,7 @@
   {
     "qid": 142,
     "query": "如果臉部辨識提款多次失敗應該怎麼處理？",
-    "query_en": "EN Translation of: 如果臉部辨識提款多次失敗應該怎麼處理？",
+    "query_en": "What should I do if facial recognition withdrawals fail multiple times?",
     "category": "faq",
     "source": [
       298,
@@ -2434,7 +2434,7 @@
   {
     "qid": 143,
     "query": "採用月繳月省房貸方式有哪些好處？",
-    "query_en": "EN Translation of: 採用月繳月省房貸方式有哪些好處？",
+    "query_en": "What are the benefits of using the Pay Monthly, Save Monthly mortgage plan?",
     "category": "faq",
     "source": [
       535,
@@ -2457,7 +2457,7 @@
   {
     "qid": 144,
     "query": "金融卡不見後應該怎麼申請重新發卡？",
-    "query_en": "EN Translation of: 金融卡不見後應該怎麼申請重新發卡？",
+    "query_en": "What should I do to apply for a replacement if my ATM card is lost?",
     "category": "faq",
     "source": [
       193,
@@ -2480,7 +2480,7 @@
   {
     "qid": 145,
     "query": "補件照片需要注意什麼？",
-    "query_en": "EN Translation of: 補件照片需要注意什麼？",
+    "query_en": "What should I pay attention to when submitting supplementary photos?",
     "category": "faq",
     "source": [
       229,
@@ -2503,7 +2503,7 @@
   {
     "qid": 146,
     "query": "跨境手機掃碼支付是什麼意思？",
-    "query_en": "EN Translation of: 跨境手機掃碼支付是什麼意思？",
+    "query_en": "What does cross-border mobile QR code payment mean?",
     "category": "faq",
     "source": [
       63,
@@ -2526,7 +2526,7 @@
   {
     "qid": 147,
     "query": "收到退件通知的原因是什麼？",
-    "query_en": "EN Translation of: 收到退件通知的原因是什麼？",
+    "query_en": "What are the possible reasons for receiving a rejection notice?",
     "category": "faq",
     "source": [
       71,
@@ -2549,7 +2549,7 @@
   {
     "qid": 148,
     "query": "我沒有玉山的帳戶，還是可以透過玉山臨櫃或網路投保嗎？",
-    "query_en": "EN Translation of: 我沒有玉山的帳戶，還是可以透過玉山臨櫃或網路投保嗎？",
+    "query_en": "Can I still purchase insurance via E.SUN counter or online services if I don’t have an account with the E.SUN bank?",
     "category": "faq",
     "source": [
       28,
@@ -2572,7 +2572,7 @@
   {
     "qid": 149,
     "query": "持有本行臨櫃開戶的帳戶還能申請數位帳戶嗎？",
-    "query_en": "EN Translation of: 持有本行臨櫃開戶的帳戶還能申請數位帳戶嗎？",
+    "query_en": "If I already have a branch-opened account at the bank, can I still apply for a digital account?",
     "category": "faq",
     "source": [
       89,
@@ -2595,7 +2595,7 @@
   {
     "qid": 150,
     "query": "為何在網路銀行或行動銀行下載對帳單會顯示無資料？",
-    "query_en": "EN Translation of: 為何在網路銀行或行動銀行下載對帳單會顯示無資料？",
+    "query_en": "Why does the system show no data when I try to download a statement from online or mobile banking?",
     "category": "faq",
     "source": [
       73,

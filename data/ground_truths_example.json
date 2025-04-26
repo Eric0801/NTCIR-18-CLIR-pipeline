@@ -1,0 +1,904 @@
+{
+    "ground_truths": [
+        {
+            "qid": 1,
+            "generate": "由匯款人負擔",
+            "category": "insurance",
+            "retrieve": 392
+        },
+        {
+            "qid": 2,
+            "generate": "本公司應在效力停止日前三十天以書面通知要保人。",
+            "category": "insurance",
+            "retrieve": 428
+        },
+        {
+            "qid": 3,
+            "generate": "不可以",
+            "category": "insurance",
+            "retrieve": 83
+        },
+        {
+            "qid": 4,
+            "generate": "要保人檢具申請書及被保險人的同意書，並獲得本公司的批註",
+            "category": "insurance",
+            "retrieve": 186
+        },
+        {
+            "qid": 5,
+            "generate": "基本保額是指保險單首頁所載之主契約保額。",
+            "category": "insurance",
+            "retrieve": 162
+        },
+        {
+            "qid": 6,
+            "generate": "十日內",
+            "category": "insurance",
+            "retrieve": 116
+        },
+        {
+            "qid": 7,
+            "generate": "本契約效力即行終止",
+            "category": "insurance",
+            "retrieve": 107
+        },
+        {
+            "qid": 8,
+            "generate": "是",
+            "category": "insurance",
+            "retrieve": 78
+        },
+        {
+            "qid": 9,
+            "generate": "受益權",
+            "category": "insurance",
+            "retrieve": 62
+        },
+        {
+            "qid": 10,
+            "generate": "否",
+            "category": "insurance",
+            "retrieve": 472
+        },
+        {
+            "qid": 11,
+            "generate": "可借金額上限為借款當日保單價值準備金的一定百分比",
+            "category": "insurance",
+            "retrieve": 7
+        },
+        {
+            "qid": 12,
+            "generate": "是",
+            "category": "insurance",
+            "retrieve": 526
+        },
+        {
+            "qid": 13,
+            "generate": "應即以書面或其他約定方式通知本公司。",
+            "category": "insurance",
+            "retrieve": 526
+        },
+        {
+            "qid": 14,
+            "generate": "要保人與本公司雙方",
+            "category": "insurance",
+            "retrieve": 526
+        },
+        {
+            "qid": 15,
+            "generate": "以作有利於被保險人的解釋為原則",
+            "category": "insurance",
+            "retrieve": 536
+        },
+        {
+            "qid": 16,
+            "generate": "應催告要保人交付保險費",
+            "category": "insurance",
+            "retrieve": 54
+        },
+        {
+            "qid": 17,
+            "generate": "接到通知後一個月內償付解約金",
+            "category": "insurance",
+            "retrieve": 606
+        },
+        {
+            "qid": 18,
+            "generate": "「基本保額」與「累計增額繳清保險基本保額」個別對應部分的最大值之總和。",
+            "category": "insurance",
+            "retrieve": 184
+        },
+        {
+            "qid": 19,
+            "generate": "保險單、死亡證明書及除戶戶籍謄本、保險金申請書、受益人身分證明",
+            "category": "insurance",
+            "retrieve": 315
+        },
+        {
+            "qid": 20,
+            "generate": "分別以「基本保額」及「累計增額繳清保險基本保額」對應下列三者中的最大值之總和:當年度保險金額、保單價值準備金乘以「當年度保障係數」、「年繳保險費總和」的一點零一倍",
+            "category": "insurance",
+            "retrieve": 292
+        },
+        {
+            "qid": 21,
+            "generate": "保險單或其謄本、失能診斷書、保險金申請書、受益人的身分證明",
+            "category": "insurance",
+            "retrieve": 36
+        },
+        {
+            "qid": 22,
+            "generate": "本公司應於收齊各該申領文件後十五日內給付之。",
+            "category": "insurance",
+            "retrieve": 614
+        },
+        {
+            "qid": 23,
+            "generate": "本公司得先抵銷欠款及扣除應付利息後給付其餘額。",
+            "category": "insurance",
+            "retrieve": 224
+        },
+        {
+            "qid": 24,
+            "generate": "不需要繼續繳保險費",
+            "category": "insurance",
+            "retrieve": 359
+        },
+        {
+            "qid": 25,
+            "generate": "匯款相關費用均由本公司負擔",
+            "category": "insurance",
+            "retrieve": 4
+        },
+        {
+            "qid": 26,
+            "generate": "以足歲計算",
+            "category": "insurance",
+            "retrieve": 147
+        },
+        {
+            "qid": 27,
+            "generate": "保險單首頁所載本契約之繳費年限。",
+            "category": "insurance",
+            "retrieve": 171
+        },
+        {
+            "qid": 28,
+            "generate": "正確",
+            "category": "insurance",
+            "retrieve": 298
+        },
+        {
+            "qid": 29,
+            "generate": "會給付保險金。",
+            "category": "insurance",
+            "retrieve": 578
+        },
+        {
+            "qid": 30,
+            "generate": "一個月內",
+            "category": "insurance",
+            "retrieve": 327
+        },
+        {
+            "qid": 31,
+            "generate": "喪葬費用保險金",
+            "category": "insurance",
+            "retrieve": 10
+        },
+        {
+            "qid": 32,
+            "generate": "保險單或其謄本、被保險人死亡證明書及除戶戶籍謄本、保險金申請書、受益人身分證明",
+            "category": "insurance",
+            "retrieve": 434
+        },
+        {
+            "qid": 33,
+            "generate": "「年繳保險費總和」的一點零二五倍",
+            "category": "insurance",
+            "retrieve": 434
+        },
+        {
+            "qid": 34,
+            "generate": "保險單或其謄本，失能診斷書，保險金申請書，受益人的身分證明",
+            "category": "insurance",
+            "retrieve": 442
+        },
+        {
+            "qid": 35,
+            "generate": "本公司將以保單價值準備金扣除欠繳保險費或借款本息或墊繳保險費本息及營業費用後的淨額辦理。",
+            "category": "insurance",
+            "retrieve": 319
+        },
+        {
+            "qid": 36,
+            "generate": "書面或其他約定方式",
+            "category": "insurance",
+            "retrieve": 148
+        },
+        {
+            "qid": 37,
+            "generate": "是的，需要要保人與本公司雙方書面或其他約定方式同意。",
+            "category": "insurance",
+            "retrieve": 148
+        },
+        {
+            "qid": 38,
+            "generate": "應催告要保人交付保險費",
+            "category": "insurance",
+            "retrieve": 353
+        },
+        {
+            "qid": 39,
+            "generate": "僅給付一次",
+            "category": "insurance",
+            "retrieve": 29
+        },
+        {
+            "qid": 40,
+            "generate": "公司按日數比例計算當期已繳付之未滿期保險費，退還予要保人",
+            "category": "insurance",
+            "retrieve": 591
+        },
+        {
+            "qid": 41,
+            "generate": "各種保險金給付合計額，視為一次住院辦理。",
+            "category": "insurance",
+            "retrieve": 165
+        },
+        {
+            "qid": 42,
+            "generate": "對本公司要保書書面詢問的告知事項應據實說明，如有為隱匿或遺漏不為說明，或為不實的說明，足以變更或減少本公司對於危險的估計者，本公司得解除本契約，其保險事故發生後亦同。",
+            "category": "insurance",
+            "retrieve": 325
+        },
+        {
+            "qid": 43,
+            "generate": "一個月內",
+            "category": "insurance",
+            "retrieve": 325
+        },
+        {
+            "qid": 44,
+            "generate": "保險單或其謄本、保險金申請書、失能診斷書。",
+            "category": "insurance",
+            "retrieve": 440
+        },
+        {
+            "qid": 45,
+            "generate": "保險單、死亡證明書、保險金申請書、受益人的身分證明",
+            "category": "insurance",
+            "retrieve": 537
+        },
+        {
+            "qid": 46,
+            "generate": "應以書面或其他約定方式通知本公司",
+            "category": "insurance",
+            "retrieve": 66
+        },
+        {
+            "qid": 47,
+            "generate": "自本契約生效日起所經過之週年數",
+            "category": "insurance",
+            "retrieve": 620
+        },
+        {
+            "qid": 48,
+            "generate": "美元",
+            "category": "insurance",
+            "retrieve": 8
+        },
+        {
+            "qid": 49,
+            "generate": "以「全額匯出」存入或匯入本公司指定之外匯存款戶",
+            "category": "insurance",
+            "retrieve": 482
+        },
+        {
+            "qid": 50,
+            "generate": "自翌日上午零時起",
+            "category": "insurance",
+            "retrieve": 78
+        },
+        {
+            "qid": 51,
+            "generate": "聯電在2023年第1季的營業利益是新台幣14,480,698千元，佔營業收入的26.71%。",
+            "category": "finance",
+            "retrieve": 162
+        },
+        {
+            "qid": 52,
+            "generate": "34.96%",
+            "category": "finance",
+            "retrieve": 918
+        },
+        {
+            "qid": 53,
+            "generate": "339,404,989新台幣仟元",
+            "category": "finance",
+            "retrieve": 351
+        },
+        {
+            "qid": 54,
+            "generate": "-$3,173,704",
+            "category": "finance",
+            "retrieve": 612
+        },
+        {
+            "qid": 55,
+            "generate": "約為8億元",
+            "category": "finance",
+            "retrieve": 166
+        },
+        {
+            "qid": 56,
+            "generate": "$842,402",
+            "category": "finance",
+            "retrieve": 171
+        },
+        {
+            "qid": 57,
+            "generate": "30,000仟元",
+            "category": "finance",
+            "retrieve": 668
+        },
+        {
+            "qid": 58,
+            "generate": "350,016,189仟新臺幣",
+            "category": "finance",
+            "retrieve": 209
+        },
+        {
+            "qid": 59,
+            "generate": "14,720,405 新台幣仟元",
+            "category": "finance",
+            "retrieve": 632
+        },
+        {
+            "qid": 60,
+            "generate": "$149,299",
+            "category": "finance",
+            "retrieve": 726
+        },
+        {
+            "qid": 61,
+            "generate": "$813,156,931",
+            "category": "finance",
+            "retrieve": 900
+        },
+        {
+            "qid": 62,
+            "generate": "141,568,596仟元",
+            "category": "finance",
+            "retrieve": 591
+        },
+        {
+            "qid": 63,
+            "generate": "2,857,540仟元",
+            "category": "finance",
+            "retrieve": 306
+        },
+        {
+            "qid": 64,
+            "generate": "1. Nippon Telegraph and Telephone Corporation (NTT) 與 Essential WiFi, LLC (EWF) 提起的專利侵權訴訟，涉及專利號碼：7,280,551, 7,545,781, 7,400,616 及 7,242,720；2. Koninklijke Philips N.V. 與 Philips North America LLC (Philips) 提起的專利侵權訴訟，涉及專利號碼：9,590,977 及 10,298,564；3. Ocean Semiconductor LLC (Ocean) 提起的專利侵權訴訟，涉及專利號碼：6,660,651, 6,907,305, 6,725,402, 6,968,248, 7,080,330, 6,836,691 及 8,676,538；4. NXP USA INC. (NXP) 提起的專利侵權訴訟，涉及專利號碼：10,038,518, 10,560,158 及 10,742,780.",
+            "category": "finance",
+            "retrieve": 124
+        },
+        {
+            "qid": 65,
+            "generate": "鴻海母集團、FII子集團及FIH子集團。",
+            "category": "finance",
+            "retrieve": 255
+        },
+        {
+            "qid": 66,
+            "generate": "西德州法院",
+            "category": "finance",
+            "retrieve": 192
+        },
+        {
+            "qid": 67,
+            "generate": "BANDSPEED, LLC於西德州法院控告瑞昱公司產品侵害其專利權，以及Advanced Micro Devices, Inc.及ATI Technologies ULC於美國國際貿易委員會控告瑞昱公司晶片產品侵害其專利權。",
+            "category": "finance",
+            "retrieve": 1021
+        },
+        {
+            "qid": 68,
+            "generate": "200,457,937仟元",
+            "category": "finance",
+            "retrieve": 942
+        },
+        {
+            "qid": 69,
+            "generate": "5,186,268仟元",
+            "category": "finance",
+            "retrieve": 981
+        },
+        {
+            "qid": 70,
+            "generate": "2,106,467仟元",
+            "category": "finance",
+            "retrieve": 490
+        },
+        {
+            "qid": 71,
+            "generate": "鋼鐵部門來自外部客戶收入是91,223,277元，其他部門來自外部客戶收入是23,988,716元。",
+            "category": "finance",
+            "retrieve": 920
+        },
+        {
+            "qid": 72,
+            "generate": "111年4月28日",
+            "category": "finance",
+            "retrieve": 204
+        },
+        {
+            "qid": 73,
+            "generate": "14,106,079仟元",
+            "category": "finance",
+            "retrieve": 235
+        },
+        {
+            "qid": 74,
+            "generate": "-$24.99新台幣元",
+            "category": "finance",
+            "retrieve": 569
+        },
+        {
+            "qid": 75,
+            "generate": "無此情事。",
+            "category": "finance",
+            "retrieve": 71
+        },
+        {
+            "qid": 76,
+            "generate": "營業收入為16,119,517千元新台幣。",
+            "category": "finance",
+            "retrieve": 211
+        },
+        {
+            "qid": 77,
+            "generate": "$23,590,383",
+            "category": "finance",
+            "retrieve": 843
+        },
+        {
+            "qid": 78,
+            "generate": "在2023年第三季，智邦科技股份有限公司的稅前淨利為3,387,213仟元。",
+            "category": "finance",
+            "retrieve": 119
+        },
+        {
+            "qid": 79,
+            "generate": "銷貨收入相關退款負債係依歷史經驗及其他已知原因估計可能發生之產品退款，於產品出售當期列為銷貨收入之減項，且本集團定期檢視估計之合理性。",
+            "category": "finance",
+            "retrieve": 65
+        },
+        {
+            "qid": 80,
+            "generate": "4,207,037千元",
+            "category": "finance",
+            "retrieve": 213
+        },
+        {
+            "qid": 81,
+            "generate": "70,006,505仟元",
+            "category": "finance",
+            "retrieve": 671
+        },
+        {
+            "qid": 82,
+            "generate": "8,214,278千元",
+            "category": "finance",
+            "retrieve": 831
+        },
+        {
+            "qid": 83,
+            "generate": "6,995,341仟元新台幣",
+            "category": "finance",
+            "retrieve": 155
+        },
+        {
+            "qid": 84,
+            "generate": "依本會計師核閱結果，部分非重要子公司及採用權益法之投資之財務報表倘經會計師核閱，對合併財務報表可能有所調整之影響外，並未發現合併財務報表在所有重大方面有未依照相關規範編製，致無法允當表達和泰集團2022年及2021年3月31日之合併財務狀況，暨2022年及2021年1月1日至3月31日之合併財務績效及合併現金流量之情事。",
+            "category": "finance",
+            "retrieve": 745
+        },
+        {
+            "qid": 85,
+            "generate": "國巨股份有限公司在2022年第3季的合併財務報表中，於110年6月董事會通過並在9月股東臨時會通過與奇力新電子股份有限公司簽署股份轉換契約。",
+            "category": "finance",
+            "retrieve": 891
+        },
+        {
+            "qid": 86,
+            "generate": "在2023年第3季，瑞昱涉及以下專利訴訟案件：1) ParkerVision, Inc.於民國111年於西德州法院控告瑞昱晶片產品侵害其專利權；2) Monterey Research, LLC於民國112年於東京地院法院控告瑞昱及其子公司Realtek Semiconductor (Japan) Corp.侵害其專利權;3)本公司於民國 112 年於美國北加州聯邦地方法院對聯發科技股份有限公司、Future Link Systems,LLC 及 Future Link 之母公司 IPValue Management 提起告訴，該案件目前正依相關程序審理中。4) ParkerVision, Inc.於民國112年於西德州法院再度控告瑞昱晶片產品侵害其專利權。所有這些案件目前正依相關程序審理中，瑞昱尚無法對結果進行任何預測。",
+            "category": "finance",
+            "retrieve": 189
+        },
+        {
+            "qid": 87,
+            "generate": "電力及能源部門",
+            "category": "finance",
+            "retrieve": 701
+        },
+        {
+            "qid": 88,
+            "generate": "約為6億元",
+            "category": "finance",
+            "retrieve": 256
+        },
+        {
+            "qid": 89,
+            "generate": "96,905,433仟元",
+            "category": "finance",
+            "retrieve": 793
+        },
+        {
+            "qid": 90,
+            "generate": "9.27仟元",
+            "category": "finance",
+            "retrieve": 710
+        },
+        {
+            "qid": 91,
+            "generate": "附表六",
+            "category": "finance",
+            "retrieve": 22
+        },
+        {
+            "qid": 92,
+            "generate": "138,743,725新台幣千元",
+            "category": "finance",
+            "retrieve": 55
+        },
+        {
+            "qid": 93,
+            "generate": "47,306,713千元",
+            "category": "finance",
+            "retrieve": 660
+        },
+        {
+            "qid": 94,
+            "generate": "3,622,184新台幣千元",
+            "category": "finance",
+            "retrieve": 699
+        },
+        {
+            "qid": 95,
+            "generate": "匯率交換合約的流入金額為$29,672,495，流出金額為$29,630,125",
+            "category": "finance",
+            "retrieve": 307
+        },
+        {
+            "qid": 96,
+            "generate": "$1,404,647 仟元",
+            "category": "finance",
+            "retrieve": 435
+        },
+        {
+            "qid": 97,
+            "generate": "$3,685,975 仟元",
+            "category": "finance",
+            "retrieve": 282
+        },
+        {
+            "qid": 98,
+            "generate": "$ 5,459,673 仟元",
+            "category": "finance",
+            "retrieve": 692
+        },
+        {
+            "qid": 99,
+            "generate": "28,193,526 千元新台幣",
+            "category": "finance",
+            "retrieve": 693
+        },
+        {
+            "qid": 100,
+            "generate": "鴻海母集團的外部收入是974,174百萬元，FII子集團的外部收入是459,004百萬元，FIH子集團的外部收入是50,654百萬元，其他部門的外部收入是27,182百萬元。",
+            "category": "finance",
+            "retrieve": 273
+        },
+        {
+            "qid": 101,
+            "generate": "上述證明文件，借款人應於每年四月底及十月底前繳交至玉山銀行，或採掛號郵寄至新北市三重區中興北街42巷17弄10號13樓消金授信部。",
+            "category": "faq",
+            "retrieve": 558
+        },
+        {
+            "qid": 102,
+            "generate": "```\n請於玉山Wallet支付頁面中點選「儲值」，選擇已綁定的扣款帳戶進行儲值，儲值成功即可使用玉山電支帳戶餘額進行付款。\n```",
+            "category": "faq",
+            "retrieve": 104
+        },
+        {
+            "qid": 103,
+            "generate": "```\nStep 1. 點選「玉山LINE官方帳號」，於對話視窗輸入「管理通知項目」並送出。\nStep 2. 輸入您的生日資料，進行身分驗證\nStep 3. 點選「取消」即可\n\n※提醒您，如您取消個人化通知服務，您將無法於LINE收到通知訊息，但您仍可使用行動銀行收取通知訊息。\n```",
+            "category": "faq",
+            "retrieve": 63
+        },
+        {
+            "qid": 104,
+            "generate": "無法取消交易。",
+            "category": "faq",
+            "retrieve": 15
+        },
+        {
+            "qid": 105,
+            "generate": "在網路與系統正常運作下，玉山銀行開放365天24小時隨時可進行網路投保的試算與投保。\n\n※若有特殊事由或不可抗力之因素導致無法正常執行簽署作業，將另行公告於玉山銀行官方網站，玉山銀行保留受理與否之一切權利。",
+            "category": "faq",
+            "retrieve": 294
+        },
+        {
+            "qid": 106,
+            "generate": "借款人須於每月約定繳款日前一天，將應繳款項足額匯入指定帳戶，並於約定日凌晨完成扣款。",
+            "category": "faq",
+            "retrieve": 224
+        },
+        {
+            "qid": 107,
+            "generate": "```\n收到補件通知後3日內，點擊簡訊或Email內的連結，並於網頁中輸入申請時留存的身分證字號、出生年月日與手機號碼，便可依畫面指示完成補件。\n\n[補件申請](https://www.esunbank.com.tw/s/OpenAccount/?ven=faq)\n```",
+            "category": "faq",
+            "retrieve": 540
+        },
+        {
+            "qid": 108,
+            "generate": "「玉山銀行人臉辨識服務」為玉山銀行所提供的臉部辨識服務，您只要持具備前鏡頭的手機裝置，即可進行註冊，並可於非約定轉帳交易中，使用「玉山銀行人臉辨識」作為驗證方式，詳細說明請參考：\n- [「玉山銀行人臉辨識服務」註冊說明](https://www.esunbank.com.tw/bank/marketing/digital/BiometricsRecognition#3)\n- [非約定轉帳使用「玉山銀行人臉辨識」驗證](https://www.esunbank.com.tw/bank/marketing/digital/BiometricsRecognition#2)",
+            "category": "faq",
+            "retrieve": 105
+        },
+        {
+            "qid": 109,
+            "generate": "(1) 持玉山銀行任一張有效之金融卡到玉山銀行營業部、城中分行廳內之刷臉ATM進行更新。\n(2) 在ATM螢幕點選「無卡交易」→「刷臉提款」→「更新刷臉ID」→插入「金融卡」→輸入「晶片金融卡密碼」→系統會傳送一組簡訊密碼至您的手機，請您查收簡訊並於ATM輸入「簡訊密碼」→設定「刷臉ID」即可完成變更。",
+            "category": "faq",
+            "retrieve": 283
+        },
+        {
+            "qid": 110,
+            "generate": "若您選擇寄送至指定地點，信用貸款核貸撥款後，契約預計兩週後會郵寄至您的通訊地址，再請於收到後檢視貸款條件等內容是否無誤，以維護自身權益。",
+            "category": "faq",
+            "retrieve": 611
+        },
+        {
+            "qid": 111,
+            "generate": "本行行動銀行或ATM皆可開通無卡提款服務，相關操作流程請參考[說明頁面](https://www.esunbank.com.tw/event/member/nocard_web/page.html)。\n\n提醒：行動銀行開通無卡提款服務，須先完成行動銀行裝置綁定。",
+            "category": "faq",
+            "retrieve": 76
+        },
+        {
+            "qid": 112,
+            "generate": "境內/境外基金贖回一般適用T日~T+2日之淨值。(T=營業日當日)\n\n◎貼心小提醒：若特殊系列基金非屬前述贖回價或遇各項節日、天災、基金清算、合併等種種因素皆依個別基金公司規範辦理。\n\n若為外幣信託，則依返還時投資標的之計價幣別返還；若為臺幣信託，則以新臺幣返還，且依入款當日解付款作業時之本行牌告買入匯率折算新臺幣，扣除相關費用後將淨額存入本行委託人本人約定帳戶。",
+            "category": "faq",
+            "retrieve": 403
+        },
+        {
+            "qid": 113,
+            "generate": "您可以經由下列方式開始使用玉山銀行強大而便利的網路銀行服務：\n\n1. 存戶線上申請：以本行「晶片金融卡 + 讀卡機」或「語音OTP」線上申請，或持本行晶片金融卡至本行ATM點選「申請網銀/忘記密碼驗證碼」，即可申請網路銀行服務。\n   *若您尚無本行帳戶，可使用[線上開戶](https://www.esunbank.com.tw/event/OpenAccount/marketing/index.html?ven=netbank_faq#apply)服務完成申請，即可使用本行便利的網路銀行服務。\n\n2. 信用卡線上申請：以本行信用卡(正卡)線上申請，只要有 E-mail 並輸入個人驗證資料，即可使用網路銀行信用卡服務。",
+            "category": "faq",
+            "retrieve": 509
+        },
+        {
+            "qid": 114,
+            "generate": "手機簡訊密碼最多可發送5次，驗證錯誤累積3次即無法再輸入，敬請細心填寫認證資料。",
+            "category": "faq",
+            "retrieve": 279
+        },
+        {
+            "qid": 115,
+            "generate": "本行顧客透過玉山網路銀行進行「網路投保」業務，為保障顧客傳輸資料之完整性、可用性及隱密性，玉山銀行與保險公司間資料傳輸皆採安全性憑證加密，經入侵防禦偵測系統、網路防火牆與網站應用程式防火牆作縱深防護，並定期進行資安檢測，確保網路交易安全。",
+            "category": "faq",
+            "retrieve": 54
+        },
+        {
+            "qid": 116,
+            "generate": "當您成為本行網路投保會員後之五年期間內，若完全沒有透過本行進行網路投保事宜，需重新完成「網路投保註冊」流程，才可重新使用網路投保服務。",
+            "category": "faq",
+            "retrieve": 4
+        },
+        {
+            "qid": 117,
+            "generate": "```\n因「Android System WebView」元件(*)改版，但手機裝置未進行更新，導致於APP開啟網頁皆會出現空白，請依以下步驟進行設定，即可正常使用。\n\n**Step 1. 將行動銀行APP從手機背景關閉。**\n\n**Step 2. 關機後重新開機。**\n\n**Step 3. 至Google Play商店搜尋「[Android System WebView](https://play.google.com/store/apps/details?id=com.google.android.webview&hl=zh_TW)」後，點選「更新」。**\n\n![畫面空白](/_/media/0b0be09a0caa4a109958c57306ed6849.ashx?h=438&&w=250)\n\n**Step 4. 重新開啟「玉山行動銀行 」即可。**\n\n*「Android System WebView」之Android最低版本需求為5.0以上\n```",
+            "category": "faq",
+            "retrieve": 92
+        },
+        {
+            "qid": 118,
+            "generate": "可以",
+            "category": "faq",
+            "retrieve": 554
+        },
+        {
+            "qid": 119,
+            "generate": "提醒您：註銷完成後，他人即無法透過此手機號碼轉入您設定的玉山帳號，若要重新申請，請至玉山行動銀行設定。\n若要取消「手機號碼收款服務」可至玉山行動銀行及個人網路銀行進行設定，相關操作流程請參考[說明頁面](https://www.esunbank.com.tw/event/member/phonetransfer/index.html#receive)。",
+            "category": "faq",
+            "retrieve": 610
+        },
+        {
+            "qid": 120,
+            "generate": "申請留學貸款時應檢附「原則同意入學證明文件」，意指無條件式入學證明或僅限需提供財力證明文件條件者。",
+            "category": "faq",
+            "retrieve": 20
+        },
+        {
+            "qid": 121,
+            "generate": "於Linux作業系統，下載元件後須手動啟動程式或重啟電腦以完成安裝程序。\n\n方法一：點選程式集的 ESunATM。\n\n![-](-/media/eba9d0d1210d4e9da34a3c649cc29099.ashx)\n\n方法二：登出或重新開機。\n\n完成後，上方功能列顯示玉山銀行LOGO即表示安裝成功。\n\n![-](-/media/171f17f7a462437ba6903829fb1ef66c.ashx)",
+            "category": "faq",
+            "retrieve": 414
+        },
+        {
+            "qid": 122,
+            "generate": "判斷是否適合投資海外債券，可參考以下特性的族群：\n\n1. 具固定現金流量需求的投資人\n2. 有長期外幣閒置資金的投資人\n3. 對穩定報酬與確定感強烈的投資人\n4. 具外幣需求且有明確財務目標的投資人\n5. 想降低股票投資風險，建構安全性較高之投資組合的投資人",
+            "category": "faq",
+            "retrieve": 415
+        },
+        {
+            "qid": 123,
+            "generate": "1. 配合PayPal系統API升級，為保障您PayPal帳戶提領交易安全，日前已完成PayPal帳號連結之顧客，於2022/10/21(五)系統升級後，須重新完成PayPal連結程序，方能繼續使用PayPal提領服務。\n\n2. 若您為持有居留證之外國人，請確認您的居留證是否為最新有效期限內之居留證。若居留證已超過有效期限者，請至臨櫃辦理；已換發新的居留證但尚未更新者，相關流程請參閱[公告事項](https://www.esunbank.com.tw/bank/about/announcement/announcement?i=CQTgT3Neb0S_WyeaQBQa7g&p=eiED0NQ60kev5_zStlp90A&d=hxK-VOJqWkGADb4tgPQH4Q)，完成資料更新後即可進行提領。",
+            "category": "faq",
+            "retrieve": 527
+        },
+        {
+            "qid": 124,
+            "generate": "感謝您通知本行，(1)您可透過[訪客留言板](https://www.esunbank.com.tw/bank/about/services/customer/message-board)留言提供聯絡方式及卡號，(2)或每日08:30~19:30透過[智能客服](https://esun.co/PfOKa)《轉接文字專員》並提供卡號，本行將通知持卡人前往領取，(3)也可電洽客服中心專線：(02)2182-1313或0800-30-1313 (限市話)；24小時全年無休。",
+            "category": "faq",
+            "retrieve": 14
+        },
+        {
+            "qid": 125,
+            "generate": "# 一、提領存入玉山存款帳戶\n\n| 提領幣別 | 每筆最低提領金額 |\n| --- | --- |\n| 新臺幣 | 新臺幣100元 |\n| 日幣 | 日幣300元 |\n| 其他幣別註<br />(非新臺幣、日幣) | 等值美金3元 |\n\n註：PayPal帳戶(非新臺幣、日幣)餘額小於等值美金3元，提領時須將該餘額用罄(將餘額全數領出至零)。\n\n# 二、提領存入他行存款帳戶\n\n| 存入幣別/帳戶 | 每筆最低入帳金額註 |\n| --- | --- |\n| 新臺幣 | 等值新臺幣500元 |\n| 美元 | 等值美金50元 |\n\n註：入帳金額為扣除2.5% PayPal手續費/貨幣轉換率後之金額。",
+            "category": "faq",
+            "retrieve": 604
+        },
+        {
+            "qid": 126,
+            "generate": "消費者透過讀卡機與晶片金融卡立即轉帳支付購買商品或服務，款項即時入帳付款輕鬆無斷點。",
+            "category": "faq",
+            "retrieve": 1
+        },
+        {
+            "qid": 127,
+            "generate": "有一個月、三個月、六個月、九個月、一年及畸零期一週、二週、三週，讓您資產配置更有彈性。\n- 外幣存款利率請參閱[外幣存款利率表](~/link.aspx?_id=BBD82741F54F4D6DACC468CE99758B6A&_z=z)。",
+            "category": "faq",
+            "retrieve": 365
+        },
+        {
+            "qid": 128,
+            "generate": "原則上，薪水高低與可貸額度成正比！根據主管機關DBR22倍規定，個人無擔保負債（信貸、信用卡、現金卡）餘額不可以超過月薪的22倍。因此，在綜合評估正常且負債無增加情況下，當薪水越高，可貸額度空間便越多。",
+            "category": "faq",
+            "retrieve": 436
+        },
+        {
+            "qid": 129,
+            "generate": "(1) 持玉山銀行任一張有效之金融卡到玉山銀行營業部、城中分行廳內之刷臉ATM進行更新。(2) 在ATM螢幕點選「無卡交易」→「刷臉提款」→「更新刷臉ID」→插入「金融卡」→輸入「晶片金融卡密碼」→系統會傳送一組簡訊密碼至您的手機，請您查收簡訊並於ATM輸入「簡訊密碼」→設定「刷臉ID」即可完成變更。",
+            "category": "faq",
+            "retrieve": 283
+        },
+        {
+            "qid": 130,
+            "generate": "是，「行動銀行驗證碼」為一組動態產生的交易驗證碼，完成設定後，您即可直接透過行動銀行接收交易驗證碼，無須透過簡訊。行動銀行驗證碼適用於非約定轉帳交易。[【「開啟行動銀行驗證碼」說明詳見第79題】](https://www.esunbank.com.tw/bank/about/faq/digital/mobile?list=79)",
+            "category": "faq",
+            "retrieve": 5
+        },
+        {
+            "qid": 131,
+            "generate": "自行轉帳：0元/筆; 跨行手續費：15元/筆;超商收取，依超商繳費單據顯示為主",
+            "category": "faq",
+            "retrieve": 600
+        },
+        {
+            "qid": 132,
+            "generate": "沒有差別，兩者使用之無卡交易密碼是共用的",
+            "category": "faq",
+            "retrieve": 334
+        },
+        {
+            "qid": 133,
+            "generate": "請持玉山銀行任一張有效之金融卡前往**玉山銀行營業部、城中分行廳內之刷臉ATM**，點選螢幕「無卡交易」→「刷臉提款」→「註銷」→插入金融卡並輸入晶片金融卡密碼後，確認您要註銷刷臉提款服務即可註銷成功。",
+            "category": "faq",
+            "retrieve": 243
+        },
+        {
+            "qid": 134,
+            "generate": "中華電信、台灣大哥大、台灣之星、遠傳電信及亞太電信",
+            "category": "faq",
+            "retrieve": 328
+        },
+        {
+            "qid": 135,
+            "generate": "成年之中華民國國民、收入穩定且無信用不良記錄",
+            "category": "faq",
+            "retrieve": 428
+        },
+        {
+            "qid": 136,
+            "generate": "線上轉存金額最低為新臺幣1萬元。",
+            "category": "faq",
+            "retrieve": 504
+        },
+        {
+            "qid": 137,
+            "generate": "經顧客同意跨境交易約定條款後，玉山銀行將自動代為進行外匯申報。",
+            "category": "faq",
+            "retrieve": 359
+        },
+        {
+            "qid": 138,
+            "generate": "開通「簡訊密碼」服務的方式如下：\n\n- [ATM開通方式](https://www.esunbank.com.tw/event/member/otp/flow/atm.html)\n- 網路銀行開通方式\n  1. 登入網路銀行，並將讀卡機連接到您的個人電腦\n     ![-](https://www.esunbank.com.tw/-/media/4221feb243154e89ac2a1aea1e2af0a8.ashx?la=en)\n  2. 選擇「個人設定與服務」，點選「簡訊密碼設定」\n     ![-](https://www.esunbank.com.tw/-/media/43200d2310d74751958533b759078b98.ashx?la=en)\n- 至臨櫃申請開通",
+            "category": "faq",
+            "retrieve": 339
+        },
+        {
+            "qid": 139,
+            "generate": "您的簡訊密碼服務已停用，請使用網路銀行修改資訊",
+            "category": "faq",
+            "retrieve": 194
+        },
+        {
+            "qid": 140,
+            "generate": "上班日 上午8:30~12:00 下午1:30~5:30(國定例假日及颱風天除外)",
+            "category": "faq",
+            "retrieve": 141
+        },
+        {
+            "qid": 141,
+            "generate": "存摺將自申請日起提供明細",
+            "category": "faq",
+            "retrieve": 410
+        },
+        {
+            "qid": 142,
+            "generate": "可持有效金融卡至刷臉ATM更新刷臉ID",
+            "category": "faq",
+            "retrieve": 173
+        },
+        {
+            "qid": 143,
+            "generate": "當您有多餘資金多繳本金時，可以享有利率減碼的好處，在沒有多餘資金的時候，也不會增加其貸款的負擔，只繳平常應繳的房貸本息即可，因此，「月繳月省房貸」的還本方式相當具有彈性，且每月透過部分還本而享有利率回饋，可立即節省利息支出。",
+            "category": "faq",
+            "retrieve": 144
+        },
+        {
+            "qid": 144,
+            "generate": "請本人攜帶身分證、第二證件及印鑑至分行完成轉換一般存款帳戶後方可補換發金融卡，將酌收手續費100元。",
+            "category": "faq",
+            "retrieve": 225
+        },
+        {
+            "qid": 145,
+            "generate": "限彩色清晰可辨識，避免反光、模糊或資訊不完整，不接受影本翻拍。",
+            "category": "faq",
+            "retrieve": 564
+        },
+        {
+            "qid": 146,
+            "generate": "大陸消費者可以用手機支付寶App在台灣實體商店購買商品或服務",
+            "category": "faq",
+            "retrieve": 0
+        },
+        {
+            "qid": 147,
+            "generate": "留存之Email/地址/簡訊手機號碼有誤",
+            "category": "faq",
+            "retrieve": 87
+        },
+        {
+            "qid": 148,
+            "generate": "不可以，敬請開立本行帳戶",
+            "category": "faq",
+            "retrieve": 242
+        },
+        {
+            "qid": 149,
+            "generate": "可以，數位帳戶開放給本行臨櫃存戶申請，惟須三個月內無本行銷戶記錄，可使用「自然人憑證」、「本行網銀(且簡訊密碼服務需為臨櫃申請)」、「他行臨櫃帳戶」、「玉山信用卡(持正卡滿半年)」方式驗證",
+            "category": "faq",
+            "retrieve": 441
+        },
+        {
+            "qid": 150,
+            "generate": "綜合對帳單於2022/1正式寄出，故僅能查詢2021/12後之對帳單。您可於每月月底查詢前一期的綜合對帳單資料，若查無資料表示該月未符合綜合對帳單寄送條件，故未寄送。",
+            "category": "faq",
+            "retrieve": 221
+        }
+    ]
+}

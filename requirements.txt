@@ -1,0 +1,7 @@
+jieba
+rank_bm25
+sentence-transformers
+pymupdf
+easyocr
+pdf2image
+openai
