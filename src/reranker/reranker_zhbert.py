@@ -10,10 +10,10 @@ from tqdm import tqdm
 # -----------------------------
 # 路徑設定
 # -----------------------------
-PASSAGE_PATH = Path("clir_pipeline/outputs/structured_passages.jsonl")
-QUERY_PATH = Path("clir_pipeline/data/translated_query.json")
-MODEL_DIR = Path("models/zhbert")
-OUTPUT_PATH = Path("clir_pipeline/outputs/runs/bm25_rerank.jsonl")
+PASSAGE_PATH = Path("/content/NTCIR-18-CLIR-pipeline-team6939/outputs/runs/structured_passages.jsonl")
+QUERY_PATH = Path("/content/NTCIR-18-CLIR-pipeline-team6939/outputs/translated_query_nmt.json")
+MODEL_DIR = "/content/models/zhbert"
+OUTPUT_PATH = Path("/content/NTCIR-18-CLIR-pipeline-team6939/outputs/runs/bm25_rerank.jsonl")
 TOP_K = 100
 MODEL_NAME = "bm25_rerank"
 
@@ -28,7 +28,7 @@ tokenized_corpus = [list(jieba.cut(text)) for text in corpus]
 bm25 = BM25Okapi(tokenized_corpus)
 
 # -----------------------------
-# 載入查詢（英文欄位）
+# 載入查詢
 # -----------------------------
 with open(QUERY_PATH, 'r', encoding='utf-8') as f:
     queries = json.load(f)
@@ -47,15 +47,15 @@ model.eval()
 results = []
 for q in tqdm(queries, desc="BM25 + BERT Reranking"):
     qid = q['qid']
-    query_en = q['query_en']
-    bm25_scores = bm25.get_scores(list(jieba.cut(query_en)))
+    query_zh = q['query_zh_nmt']
+    bm25_scores = bm25.get_scores(list(jieba.cut(query_zh)))
     topk_idx = sorted(range(len(bm25_scores)), key=lambda i: bm25_scores[i], reverse=True)[:TOP_K]
     top_passages = [corpus[i] for i in topk_idx]
     top_pids = [pid_list[i] for i in topk_idx]
 
     # 對 topK 使用 BERT rerank
     inputs = tokenizer(
-        [query_en] * TOP_K, 
+        [query_zh] * TOP_K, 
         top_passages, 
         padding=True, 
         truncation=True, 

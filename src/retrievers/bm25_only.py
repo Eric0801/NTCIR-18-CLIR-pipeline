@@ -8,10 +8,10 @@ from tqdm import tqdm
 # -----------------------------
 # 路徑設定
 # -----------------------------
-PASSAGE_PATH = Path("clir_pipeline/outputs/structured_passages.jsonl")
-QUERY_PATH = Path("clir_pipeline/data/translated_query.json")
-OUTPUT_PATH = Path("clir_pipeline/outputs/runs/bm25_only.jsonl")
-USER_DICT_PATH = Path("clir_pipeline/data/userdict.txt")
+PASSAGE_PATH = Path("/content/NTCIR-18-CLIR-pipeline-team6939/outputs/runs/structured_passages.jsonl")
+QUERY_PATH = Path("/content/NTCIR-18-CLIR-pipeline-team6939/outputs/translated_query_nmt.json")
+OUTPUT_PATH = Path("/content/NTCIR-18-CLIR-pipeline-team6939/outputs/runs/bm25_only.jsonl")
+USER_DICT_PATH = Path("/content/NTCIR-18-CLIR-pipeline-team6939/data/userdict.txt")
 TOP_K = 100
 MODEL_NAME = "bm25_only"
 
@@ -48,7 +48,7 @@ with open(QUERY_PATH, 'r', encoding='utf-8') as f:
 results = []
 for q in tqdm(queries, desc="BM25 Retrieval"):
     qid = q['qid']
-    query = q['query_zh_gpt']
+    query = q['query_zh_nmt']
     tokenized_query = list(jieba.cut(query))
     scores = bm25.get_scores(tokenized_query)
     topk_idx = sorted(range(len(scores)), key=lambda i: scores[i], reverse=True)[:TOP_K]

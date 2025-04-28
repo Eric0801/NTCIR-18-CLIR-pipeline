@@ -10,10 +10,10 @@ from sentence_transformers import SentenceTransformer
 # -----------------------------
 # 路徑設定
 # -----------------------------
-PASSAGE_PATH = Path("clir_pipeline/outputs/structured_passages.jsonl")
-QUERY_PATH = Path("clir_pipeline/data/translated_query.json")
-MODEL_DIR = "models/labse"
-OUTPUT_PATH = Path("clir_pipeline/outputs/runs/dense_dual_encoder.jsonl")
+PASSAGE_PATH = Path("/content/NTCIR-18-CLIR-pipeline-team6939/outputs/runs/structured_passages.jsonl")
+QUERY_PATH = Path("/content/NTCIR-18-CLIR-pipeline-team6939/data/translated_query.json")
+MODEL_DIR = "/content/models/labse"
+OUTPUT_PATH = Path("/content/NTCIR-18-CLIR-pipeline-team6939/outputs/runs/dense_dual_encoder.jsonl")
 TOP_K = 100
 MODEL_NAME = "dense_dual_encoder"
 
