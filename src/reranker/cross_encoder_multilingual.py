@@ -34,7 +34,7 @@ with open(QUERY_PATH, 'r', encoding='utf-8') as f:
     queries = json.load(f)
 
 # -----------------------------
-# 載入 dense encoder 的 top-K 結果
+# 載入 dense dual encoder 的 top-K 結果
 # -----------------------------
 with open("/content/NTCIR-18-CLIR-pipeline-team6939/outputs/runs/dense_dual_encoder.jsonl", 'r', encoding='utf-8') as f:
     dense_results = [json.loads(line) for line in f]

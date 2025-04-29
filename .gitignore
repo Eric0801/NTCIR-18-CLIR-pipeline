@@ -1,1 +1,46 @@
-.qodo
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+
+# Virtual environment
+.venv/
+env/
+ENV/
+venv/
+myenv/
+
+# Model weights
+models/zhbert-finetuned/
+models/zhbert/
+models/labse/
+models/cross_encoder/
+
+# Large output files
+outputs/runs/*.jsonl
+outputs/translated_cache_*.json
+outputs/retrieval_rankings.json
+outputs/evaluation_summary*.csv
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Personal settings
+.DS_Store
+.vscode/
+.idea/
+
+# Data sources
+pdfs/
+
+
+# Log files
+logs/
+*.log
+
+# Colab-related
+*.ipynb
