@@ -1,4 +1,4 @@
-
+# ✅ Chinese BERT Reranker with BM25 (Dual Query Version)
 import json
 import jieba
 import torch
@@ -10,15 +10,30 @@ from tqdm import tqdm
 # -----------------------------
 # 路徑設定
 # -----------------------------
-PASSAGE_PATH = Path("/content/NTCIR-18-CLIR-pipeline-team6939/outputs/runs/structured_passages.jsonl")
-QUERY_PATH = Path("/content/NTCIR-18-CLIR-pipeline-team6939/outputs/translated_query_nmt.json")
-MODEL_DIR = "/content/models/zhbert"
-OUTPUT_PATH = Path("/content/NTCIR-18-CLIR-pipeline-team6939/outputs/runs/bm25_rerank.jsonl")
-TOP_K = 100
-MODEL_NAME = "bm25_rerank"
+PASSAGE_PATH = Path("/content/NTCIR-18-CLIR-pipeline-team6939/outputs/structured_passages.jsonl")
+QUERY_PATH = Path("/content/NTCIR-18-CLIR-pipeline-team6939/data/translated_query_nmt.json")
+MODEL_DIR = Path("/content/NTCIR-18-CLIR-pipeline-team6939/models/zhbert_finetuned-v2")
+OUTPUT_DIR = Path("/content/NTCIR-18-CLIR-pipeline-team6939/outputs/runs")
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+TOP_K = 500
+BATCH_SIZE = 64
 
 # -----------------------------
-# 載入 passages 並斷詞
+# 載入模型（含驗證與例外處理）
+# -----------------------------
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+assert MODEL_DIR.exists(), f"❌ 模型路徑不存在：{MODEL_DIR}"
+assert (MODEL_DIR / "config.json").exists(), "❌ 缺少 config.json"
+
+try:
+    tokenizer = BertTokenizer.from_pretrained(str(MODEL_DIR), local_files_only=True)
+    model = BertForSequenceClassification.from_pretrained(str(MODEL_DIR), local_files_only=True).to(device)
+    model.eval()
+except Exception as e:
+    raise RuntimeError(f"❌ 無法載入 zhBERT 模型：{e}")
+
+# -----------------------------
+# 載入資料與建 BM25
 # -----------------------------
 with open(PASSAGE_PATH, 'r', encoding='utf-8') as f:
     passages = [json.loads(line) for line in f]
@@ -27,62 +42,60 @@ with open(PASSAGE_PATH, 'r', encoding='utf-8') as f:
 tokenized_corpus = [list(jieba.cut(text)) for text in corpus]
 bm25 = BM25Okapi(tokenized_corpus)
 
-# -----------------------------
-# 載入查詢
-# -----------------------------
 with open(QUERY_PATH, 'r', encoding='utf-8') as f:
     queries = json.load(f)
 
 # -----------------------------
-# 載入中文 BERT 模型
+# 開始 reranking
 # -----------------------------
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-tokenizer = BertTokenizer.from_pretrained(MODEL_DIR)
-model = BertForSequenceClassification.from_pretrained(MODEL_DIR).to(device)
-model.eval()
+for query_version in ["query_zh_nmt", "query"]:
+    results = []
+    for q in tqdm(queries, desc=f"Running BM25 + Reranker ({query_version})"):
+        qid = q['qid']
+        query_text = q.get(query_version, "")
+        if not query_text:
+            continue
 
-# -----------------------------
-# 開始 BM25 + rerank
-# -----------------------------
-results = []
-for q in tqdm(queries, desc="BM25 + BERT Reranking"):
-    qid = q['qid']
-    query_zh = q['query_zh_nmt']
-    bm25_scores = bm25.get_scores(list(jieba.cut(query_zh)))
-    topk_idx = sorted(range(len(bm25_scores)), key=lambda i: bm25_scores[i], reverse=True)[:TOP_K]
-    top_passages = [corpus[i] for i in topk_idx]
-    top_pids = [pid_list[i] for i in topk_idx]
+        bm25_scores = bm25.get_scores(list(jieba.cut(query_text)))
+        topk_idx = sorted(range(len(bm25_scores)), key=lambda i: bm25_scores[i], reverse=True)[:TOP_K]
+        top_passages = [corpus[i] for i in topk_idx]
+        top_pids = [pid_list[i] for i in topk_idx]
 
-    # 對 topK 使用 BERT rerank
-    inputs = tokenizer(
-        [query_zh] * TOP_K, 
-        top_passages, 
-        padding=True, 
-        truncation=True, 
-        return_tensors="pt"
-    ).to(device)
-    
-    with torch.no_grad():
-        outputs = model(**inputs)
-        logits = outputs.logits[:, 1] if outputs.logits.shape[1] == 2 else outputs.logits.squeeze()
+        reranked = []
+        for i in range(0, TOP_K, BATCH_SIZE):
+            batch_passages = top_passages[i:i+BATCH_SIZE]
+            batch_pids = top_pids[i:i+BATCH_SIZE]
+            inputs = tokenizer(
+                [query_text] * len(batch_passages),
+                batch_passages,
+                padding=True,
+                truncation=True,
+                return_tensors="pt",
+                max_length=512,
+                return_overflowing_tokens=False
+            ).to(device)
 
-    reranked = sorted(zip(top_pids, logits.cpu().tolist()), key=lambda x: x[1], reverse=True)
-    
-    for rank, (pid, score) in enumerate(reranked, 1):
-        results.append({
-            "qid": qid,
-            "pid": pid,
-            "score": float(score),
-            "rank": rank,
-            "model": MODEL_NAME
-        })
+            with torch.no_grad():
+                logits = model(**inputs).logits
+                scores = logits[:, 1].tolist() if logits.ndim == 2 and logits.shape[1] == 2 else logits.squeeze().tolist()
+                if isinstance(scores, float):
+                    scores = [scores]
 
-# -----------------------------
-# 儲存結果
-# -----------------------------
-OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
-with open(OUTPUT_PATH, 'w', encoding='utf-8') as f:
-    for r in results:
-        f.write(json.dumps(r, ensure_ascii=False) + '\n')
+            reranked.extend(zip(batch_pids, scores))
 
-print(f"[✓] BM25 + Reranker results saved to {OUTPUT_PATH}")
+        reranked = sorted(reranked, key=lambda x: x[1], reverse=True)
+        for rank, (pid, score) in enumerate(reranked, 1):
+            results.append({
+                "qid": qid,
+                "pid": pid,
+                "rank": rank,
+                "score": float(score),
+                "model": f"bm25_rerank_{query_version}"
+            })
+
+    output_file = OUTPUT_DIR / f"bm25_rerank_{query_version}.jsonl"
+    with open(output_file, 'w', encoding='utf-8') as f:
+        for r in results:
+            f.write(json.dumps(r, ensure_ascii=False) + '\n')
+
+    print(f"✅ Saved: {output_file}")

@@ -8,11 +8,11 @@ from tqdm import tqdm
 # -----------------------------
 # 路徑設定
 # -----------------------------
-PASSAGE_PATH = Path("/content/NTCIR-18-CLIR-pipeline-team6939/outputs/runs/structured_passages.jsonl")
+PASSAGE_PATH = Path("/content/NTCIR-18-CLIR-pipeline-team6939/outputs/structured_passages.jsonl")
 QUERY_PATH = Path("/content/NTCIR-18-CLIR-pipeline-team6939/outputs/translated_query_nmt.json")
 OUTPUT_PATH = Path("/content/NTCIR-18-CLIR-pipeline-team6939/outputs/runs/bm25_only.jsonl")
 USER_DICT_PATH = Path("/content/NTCIR-18-CLIR-pipeline-team6939/data/userdict.txt")
-TOP_K = 100
+TOP_K = 500
 MODEL_NAME = "bm25_only"
 
 # -----------------------------

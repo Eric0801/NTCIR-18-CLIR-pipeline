@@ -19,7 +19,7 @@ def extract_pid(pid):
     return pid.split('_')[0]  # 只取 _ 前面的部分，例如 "474_p0_b19" -> "474"
 
 # 計算 MRR
-def compute_mrr(results, ground_truth):
+def compute_mrr(results, ground_truth, k= 10): #cutoff = 10
     reciprocal_ranks = []
     for qid, ranked_pids in results.items():
         gt = set(map(str, ground_truth.get(str(qid), [])))  # ground truth 轉成字串集合
