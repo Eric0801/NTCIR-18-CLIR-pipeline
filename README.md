@@ -32,7 +32,7 @@ To request access, you can either:
 
 2. **Contact the owner directly:**
    - 📧 Email: [ericchiu801@gmail.com](mailto:ericchiu801@gmail.com)
-   - 💼 LinkedIn: [Yi-Ting, Chiu]([(https://www.linkedin.com/in/逸庭-邱/))
+   - 💼 LinkedIn: [Yi-Ting, Chiu]([(https://www.linkedin.com/in/逸庭-邱/)])
 
 We aim to support the research community while ensuring responsible use of our resources.
 
