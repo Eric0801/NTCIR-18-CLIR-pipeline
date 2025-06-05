@@ -1,7 +1,33 @@
-jieba
-rank_bm25
-sentence-transformers
-pymupdf
-easyocr
-pdf2image
-openai
+# Core dependencies
+jieba>=0.42.1
+rank_bm25>=0.2.2
+sentence-transformers>=2.2.2
+transformers>=4.30.0
+torch>=2.0.0
+numpy>=1.24.0
+pandas>=2.0.0
+tqdm>=4.65.0
+
+# PDF processing
+pymupdf>=1.22.0
+pdf2image>=1.16.3
+easyocr>=1.7.0
+
+# Machine learning and evaluation
+scikit-learn>=1.2.0
+faiss-cpu>=1.7.4  # Use faiss-gpu for GPU support
+
+# Utilities
+python-dotenv>=1.0.0
+opencc-python-reimplemented>=0.1.7
+qrcode>=7.4.2
+pillow>=10.0.0  # Required for qrcode
+
+# API and web
+openai>=1.0.0
+requests>=2.31.0
+
+# Development tools
+pytest>=7.4.0  # For testing
+black>=23.7.0  # For code formatting
+flake8>=6.1.0  # For linting
