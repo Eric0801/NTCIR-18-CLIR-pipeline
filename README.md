@@ -77,44 +77,59 @@ Instead, use:
 ## 📦 Folder Structure
 
 ```
-clir_pipeline/
-├── CLIR_Reviewer_Demo_Full.ipynb   ← 📘 Main demo notebook
-├── setup_models.py                 ← 🔧 Auto-download models to /models
-├── run_all_retrievals.py          ← 🔁 Run 4 retrieval models with timing
-├── config.py                      ← ⚙️ Centralized configuration
-├── LICENSE                        ← 📄 MIT License
+NTCIR-18-CLIR-pipeline/
 │
-├── models/                         ← 🧠 Local models (auto-downloaded)
-│   ├── zhbert/                     ← Chinese BERT reranker
-│   ├── labse/                      ← LaBSE dense encoder
-│   └── cross_encoder/             ← Multilingual cross encoder
+├── CLIR_Reviewer_Demo_Full.ipynb      # Main workflow Jupyter Notebook
+├── config.py                          # Path and environment auto-detection settings
+├── requirements.txt                   # Python dependencies
+├── run_all.sh                         # One-click pipeline shell script
+├── run_all_retrievals.py              # Run all retrieval modules
+├── setup_models.py                    # Script to download/setup models
+├── upload_models.py                   # Script to upload models to HuggingFace
+├── QRcode.py                          # QR code generation utility
 │
-├── data/                           ← 📂 Query + Ground truth + Dictionary
+├── data/                              # Query, annotation, and dictionary files
 │   ├── translated_query.json
 │   ├── ground_truths_example.json
-│   └── userdict.txt               ← (optional) for jieba customization
+│   ├── userdict.txt
+│   └── pid_map_content.json
 │
-├── outputs/
-│   ├── structured_passages.jsonl  ← 📄 Extracted paragraphs from PDFs
-│   ├── runs/
-│   │   ├── bm25_only.jsonl
-│   │   ├── bm25_rerank.jsonl
-│   │   ├── dense_dual_encoder.jsonl
-│   │   └── cross_encoder.jsonl
-│   └── evaluation_summary_all.csv
+├── models/                            # Local model storage (should be .gitignored)
+│   ├── zhbert_finetuned-v2/
+│   ├── zhbert-finetuned-v2/
+│   └── labse/
 │
-├── pdfs/                          ← 📚 Source documents
-│   ├── faq/                       ← Contains queries and pid_map.json
-│   ├── finance/                   ← ~1000 PDFs
-│   └── insurance/                 ← ~643 PDFs
+├── outputs/                           # Output results and intermediate files
+│   ├── structured_passages.jsonl
+│   └── runs/
+│       └── retrieval_rankings.json
 │
-└── src/
-    ├── retrievers/
-    │   ├── bm25_only.py
-    │   └── dual_encoder_dense.py
-    └── reranker/
-        ├── reranker_zhbert.py
-        └── cross_encoder_multilingual.py
+├── pdfs/                              # Original PDF files
+│   ├── finance/
+│   ├── insurance/
+│   └── faq/
+│
+├── src/                               # Main source code
+│   ├── analysis/
+│   │   └── translate_error_analysis.py
+│   ├── evaluation/
+│   │   ├── evaluation.py
+│   │   └── evaluation_summary.py
+│   ├── preprocess/
+│   │   └── translate.py
+│   ├── reranker/
+│   │   ├── bm25_finetune_reranker_dualquery.py
+│   │   ├── cross_encoder_multilingual.py
+│   │   ├── fine_tune_reranker.py
+│   │   ├── fine_tune_reranker_v2.py
+│   │   └── reranker_zhbert_dualquery.py
+│   └── retrievers/
+│       ├── bm25_only_dualquery.py
+│       └── dual_encoder_dense.py
+│
+├── .gitignore
+├── LICENSE
+└── README.md
 ```
 
 ---
