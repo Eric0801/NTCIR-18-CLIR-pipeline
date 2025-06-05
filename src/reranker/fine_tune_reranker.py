@@ -5,12 +5,7 @@ import torch
 from torch.utils.data import Dataset, DataLoader
 from transformers import BertTokenizer, BertForSequenceClassification, AdamW
 from tqdm import tqdm
-
-# 設定路徑
-QUERY_PATH = "data/translated_query.json"
-PASSAGE_PATH = "outputs/structured_passages.jsonl"
-GROUND_TRUTH_PATH = "data/ground_truths_example.json"
-SAVE_DIR = "models/zhbert-finetuned"
+from config import QUERY_PATH, PASSAGE_PATH, GROUND_TRUTH_PATH, ZHBERT_MODEL_DIR
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -74,8 +69,8 @@ for epoch in range(3):
     print(f"Epoch {epoch+1} Loss: {total_loss/len(dataloader):.4f}")
 
 # 儲存模型
-os.makedirs(SAVE_DIR, exist_ok=True)
-model.save_pretrained(SAVE_DIR)
-tokenizer.save_pretrained(SAVE_DIR)
+os.makedirs(ZHBERT_MODEL_DIR, exist_ok=True)
+model.save_pretrained(ZHBERT_MODEL_DIR)
+tokenizer.save_pretrained(ZHBERT_MODEL_DIR)
 
-print(f"[✓] Fine-tuned model saved to {SAVE_DIR}")
+print(f"[✓] Fine-tuned model saved to {ZHBERT_MODEL_DIR}")

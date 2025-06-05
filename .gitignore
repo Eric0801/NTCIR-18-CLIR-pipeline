@@ -12,17 +12,28 @@ ENV/
 venv/
 myenv/
 
-# Model weights
+# Model weights and large files
+models/zhbert-finetuned-v2/
+models/zhbert_finetuned-v2
 models/zhbert-finetuned/
 models/zhbert/
 models/labse/
 models/cross_encoder/
+models/*.bin
+models/*.pt
+models/*.pth
+models/*.safetensors
 
 # Large output files
 outputs/runs/*.jsonl
 outputs/translated_cache_*.json
 outputs/retrieval_rankings.json
 outputs/evaluation_summary*.csv
+outputs/structured_passages.jsonl
+outputs/*.json
+outputs/*.csv
+outputs/*.log
+*.safetensors
 
 # Temporary files
 *.tmp
@@ -33,14 +44,47 @@ outputs/evaluation_summary*.csv
 .DS_Store
 .vscode/
 .idea/
+.qodo/
 
 # Data sources
 pdfs/
-
+data/*.json
+data/*.jsonl
+data/*.csv
+data/*.txt
+!data/userdict.txt  # Keep the user dictionary
 
 # Log files
 logs/
 *.log
 
-# Colab-related
-*.ipynb
+# Jupyter notebooks
+.ipynb_checkpoints/
+!CLIR_Reviewer_Demo_Full.ipynb  # Keep the main demo notebook
+
+# Generated QR codes and images
+*.png
+*.jpg
+*.jpeg
+*.svg
+!NTCIR_CLIR_QR_GitHub.png  # Keep the main QR code
+!flowchart.png  # Keep the flowchart
+
+# Environment variables
+.env
+.env.*
+
+# IDE specific files
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.env

@@ -14,11 +14,24 @@ def timed_block(fn):
         return result
     return wrapper
 
-# 把 pid 轉成純數字部分
+# Convert pid to pure number
 def extract_pid(pid):
-    return pid.split('_')[0]  # 只取 _ 前面的部分，例如 "474_p0_b19" -> "474"
+    return pid.split('_')[0]  #  extract the character before _ only, e.g. "474_p0_b19" -> "474"
 
-# 計算 MRR
+def normalize_ground_truth(raw_gt_list):
+    """
+    將 list[dict(qid, retrieve)] 的 ground truth 轉成 dict[qid] = [pid]
+    """
+    gt_dict = {}
+    for item in raw_gt_list:
+        qid = str(item["qid"])
+        pid = str(item["retrieve"])
+        if qid not in gt_dict:
+            gt_dict[qid] = []
+        gt_dict[qid].append(pid)
+    return gt_dict
+
+# calculate MRR
 def compute_mrr(results, ground_truth, k= 10): #cutoff = 10
     reciprocal_ranks = []
     for qid, ranked_pids in results.items():
@@ -32,7 +45,7 @@ def compute_mrr(results, ground_truth, k= 10): #cutoff = 10
             reciprocal_ranks.append(0)
     return np.mean(reciprocal_ranks)
 
-# 計算 Recall@k
+# calculate Recall@k
 def compute_recall_at_k(results, ground_truth, k=100):
     recall_scores = []
     for qid, ranked_pids in results.items():
@@ -44,7 +57,7 @@ def compute_recall_at_k(results, ground_truth, k=100):
         recall_scores.append(len(gt & retrieved) / len(gt))
     return np.mean(recall_scores)
 
-# 計算 NDCG@k
+# calculate NDCG@k
 def compute_ndcg_at_k(results, ground_truth, k=10):
     y_true = []
     y_score = []

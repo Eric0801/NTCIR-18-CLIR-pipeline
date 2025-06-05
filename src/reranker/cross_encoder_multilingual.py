@@ -1,31 +1,37 @@
-
 import json
+import os
 import torch
 from tqdm import tqdm
 from pathlib import Path
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
+from config import PASSAGE_PATH, QUERY_PATH, RUNS_DIR, ensure_dir, CROSS_ENCODER_MODEL_DIR
 
 # -----------------------------
-# 路徑設定
+# Path setting
 # -----------------------------
-PASSAGE_PATH = Path("/content/NTCIR-18-CLIR-pipeline-team6939/outputs/runs/structured_passages.jsonl")
-QUERY_PATH = Path("/content/NTCIR-18-CLIR-pipeline-team6939/data/translated_query.json")
-MODEL_DIR = "/content/models/cross_encoder"
-OUTPUT_PATH = Path("/content/NTCIR-18-CLIR-pipeline-team6939/outputs/runs/cross_encoder.jsonl")
+DENSE_RESULT_PATH = RUNS_DIR / "dense_dual_encoder.jsonl"
+OUTPUT_PATH = RUNS_DIR / "cross_encoder.jsonl"
 TOP_K = 100
 MODEL_NAME = "cross_encoder"
 
 # -----------------------------
-# 載入模型
+# 載入模型（加上 local fallback 判斷）
+# -----------------------------
+
 # -----------------------------
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-tokenizer = AutoTokenizer.from_pretrained(MODEL_DIR)
-model = AutoModelForSequenceClassification.from_pretrained(MODEL_DIR).to(device)
+tokenizer = AutoTokenizer.from_pretrained(CROSS_ENCODER_MODEL_DIR)
+model = AutoModelForSequenceClassification.from_pretrained(CROSS_ENCODER_MODEL_DIR).to(device)
 model.eval()
 
 # -----------------------------
 # 載入 passages 與 queries
 # -----------------------------
+if not os.path.exists(PASSAGE_PATH):
+    raise FileNotFoundError(f"❌ Cannot find passage file at {PASSAGE_PATH}. Did you run passage extraction?")
+if not os.path.exists(DENSE_RESULT_PATH):
+    raise FileNotFoundError(f"❌ Cannot find dense retrieval result at {DENSE_RESULT_PATH}.")
+
 with open(PASSAGE_PATH, 'r', encoding='utf-8') as f:
     passages = [json.loads(line) for line in f]
     pid_map = {p['pid']: p['text'] for p in passages}
@@ -33,13 +39,12 @@ with open(PASSAGE_PATH, 'r', encoding='utf-8') as f:
 with open(QUERY_PATH, 'r', encoding='utf-8') as f:
     queries = json.load(f)
 
-# -----------------------------
-# 載入 dense dual encoder 的 top-K 結果
-# -----------------------------
-with open("/content/NTCIR-18-CLIR-pipeline-team6939/outputs/runs/dense_dual_encoder.jsonl", 'r', encoding='utf-8') as f:
+with open(DENSE_RESULT_PATH, 'r', encoding='utf-8') as f:
     dense_results = [json.loads(line) for line in f]
 
-# Group by qid
+# -----------------------------
+# 整理 top-K 預測結果
+# -----------------------------
 from collections import defaultdict
 topk_by_qid = defaultdict(list)
 for r in dense_results:
@@ -54,19 +59,22 @@ for q in tqdm(queries, desc="Cross encoder reranking"):
     query = q['query_en']
     pid_scores = topk_by_qid[qid][:TOP_K]
 
+    if not pid_scores:
+        continue
+
     pair_inputs = tokenizer(
         [query] * len(pid_scores),
-        [pid_map[pid] for pid, _ in pid_scores],
+        [pid_map.get(pid, "") for pid, _ in pid_scores],
         padding=True,
         truncation=True,
         return_tensors="pt"
     ).to(device)
 
     with torch.no_grad():
-        outputs = model(**pair_inputs)
-        logits = outputs.logits[:, 1] if outputs.logits.shape[1] == 2 else outputs.logits.squeeze()
+        logits = model(**pair_inputs).logits
+        scores = torch.softmax(logits, dim=1)[:, 1].cpu().tolist()
 
-    reranked = sorted(zip([pid for pid, _ in pid_scores], logits.cpu().tolist()), key=lambda x: x[1], reverse=True)
+    reranked = sorted(zip([pid for pid, _ in pid_scores], scores), key=lambda x: x[1], reverse=True)
 
     for rank, (pid, score) in enumerate(reranked, 1):
         results.append({
