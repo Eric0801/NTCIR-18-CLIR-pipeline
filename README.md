@@ -12,22 +12,18 @@ This pipeline and architecture was built by [Yi-Ting, Chiu](https://github.com/E
 
 ## 👥 Contributors
 
-This project also received support from [Zong-Han, Bai] (GitHub: HummerQAQ), who contributed selectively to early-stage discussions, code testing, and translation error analysis verification. While valuable, these contributions do not cover the core design, full implementation, or the NTCIR-18 paper's final revision process.
+This project also received support from [Zong-Han, Bai (HummerQAQ)](https://github.com/HummerQAQ), who contributed selectively to early-stage discussions, code testing, and translation error analysis verification. While valuable, these contributions do not cover the core design, full implementation, or the NTCIR-18 paper's final revision process.
 
 All contributions are transparently tracked in the GitHub commit and contributor history.
 
-##  Model and Dataset Access
+## 📦 Model and Dataset Access
 
-Our fine-tuned Chinese-RoBERTa-wwm-ext reranker model is available on HuggingFace. The model, HF token, and dataset are available upon request for:
--  Educational purposes
--  Research use
--  Demo testing
+- The fine-tuned Chinese-RoBERTa-wwm-ext reranker model is available on HuggingFace.
+- **Training and evaluation datasets are NOT publicly available** due to licensing restrictions.
+- For educational, research, or demo use, please contact the owner to request access (see below).
+- ⚠️ **Commercial use is strictly prohibited.**
 
-⚠️ **Important Notice**: Commercial use of the dataset or pipeline is strictly forbidden. This includes but is not limited to:
-- 🚫 Commercial product development
-- 🚫 Paid services
-- 🚫 Commercial research
-- 🚫 Any for-profit activities
+You may still use the provided code and pipeline with your own data, as long as it follows the same format as shown in the `data/` directory.
 
 To request access, you can either:
 
@@ -42,36 +38,20 @@ To request access, you can either:
 
 We aim to support the research community while ensuring responsible use of our resources.
 
-## 🔒 Security and Privacy Guidelines
+## 🔒 Security and Privacy
 
-When using or forking this project, please ensure you do NOT share:
+**Do NOT commit or share:**
+- API keys, tokens, or credentials (HuggingFace, OpenAI, etc.)
+- `.env` or config files with sensitive data
+- Model weights or proprietary datasets
+- Personal or user data
+- System credentials or server configs
 
-1. **API Keys and Tokens:**
-   - 🚫 HuggingFace API tokens
-   - 🚫 OpenAI API keys
-   - 🚫 Any other service API credentials
-
-2. **Environment Variables:**
-   - 🚫 `.env` files
-   - 🚫 Configuration files containing sensitive data
-   - 🚫 Local path configurations
-
-3. **Model Weights and Data:**
-   - 🚫 Fine-tuned model weights
-   - 🚫 Training datasets
-   - 🚫 Evaluation datasets
-   - 🚫 Any proprietary data
-
-4. **Personal Information:**
-   - 🚫 User data
-   - 🚫 Personal identifiers
-   - 🚫 Contact information (except for the owner's public contact)
-
-5. **System Information:**
-   - 🚫 Server configurations
-   - 🚫 Database credentials
-   - 🚫 Network settings
-
+Use:
+- Environment variables for secrets
+- `.gitignore` to exclude sensitive files
+- Sample config files with placeholders
+  
 Instead, use:
 - ✅ Environment variables for sensitive data
 - ✅ `.gitignore` to exclude sensitive files
@@ -246,17 +226,7 @@ python QRcode.py
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-The MIT License is a permissive license that is short and to the point. It lets people do anything they want with your code as long as they provide attribution back to you and don't hold you liable.
-
-Key features of the MIT License:
-- ✅ Commercial use
-- ✅ Modification
-- ✅ Distribution
-- ✅ Private use
-- ✅ Liability limitation
-- ✅ Warranty limitation
-
-For more information about the MIT License, visit [opensource.org/licenses/MIT](https://opensource.org/licenses/MIT).
+The MIT License allows commercial and private use, modification, and distribution, provided that attribution is given.
 
