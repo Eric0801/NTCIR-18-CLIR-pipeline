@@ -60,6 +60,23 @@ Instead, use:
 
 ---
 
+### 📝 Important Notes
+
+- The following directories are not included in the public repository and should be ignored via `.gitignore`:
+  - `data/`: Contains query, annotation, and dictionary files
+  - `models/`: Stores local model weights and configurations
+  - `outputs/`: Contains generated results and intermediate files
+  - `pdfs/`: Original PDF documents
+
+These directories contain large files and sensitive data that should not be publicly shared. When using this repository, you'll need to:
+1. Create these directories locally
+2. Place your own data files in the appropriate directories
+3. Follow the same file structure and naming conventions as shown in the example files
+
+For information about obtaining the required data files, please refer to the [Model and Dataset Access](#-model-and-dataset-access) section.
+
+---
+
 ## 📦 Folder Structure
 
 ```
@@ -74,7 +91,7 @@ NTCIR-18-CLIR-pipeline/
 ├── upload_models.py                   # Script to upload models to HuggingFace
 ├── QRcode.py                          # QR code generation utility
 │
-├── data/                              # Query, annotation, and dictionary files
+├── data/                              # Query, annotation, and dictionary files (not included in public repo)
 │   ├── translated_query.json
 │   ├── ground_truths_example.json
 │   ├── userdict.txt
@@ -90,7 +107,7 @@ NTCIR-18-CLIR-pipeline/
 │   └── runs/
 │       └── retrieval_rankings.json
 │
-├── pdfs/                              # Original PDF files
+├── pdfs/                              # Original PDF files (should be .gitignored)
 │   ├── finance/
 │   ├── insurance/
 │   └── faq/
@@ -113,9 +130,9 @@ NTCIR-18-CLIR-pipeline/
 │       ├── bm25_only_dualquery.py
 │       └── dual_encoder_dense.py
 │
-├── .gitignore
-├── LICENSE
-└── README.md
+├── .gitignore                         # Ignore rules for large files, datasets, models, etc.
+├── LICENSE                            # Project license (MIT)
+└── README.md                          # Project documentation
 ```
 
 ---
