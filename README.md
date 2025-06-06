@@ -10,6 +10,12 @@ This is the official demo package for our NTCIR-18 AI Cup submission:
 
 This pipeline and architecture was built by [Yi-Ting, Chiu](https://github.com/Eric0801) (GitHub: [@Eric0801](https://github.com/Eric0801), also known as EatingChew). Any other repository implementing similar functionality is a descendant of this project.
 
+## 👥 Contributors
+
+This project also received support from [Zong-Han Bai] (GitHub: HummerQAQ), who contributed selectively to early-stage discussions, code testing, and translation error analysis verification. While valuable, these contributions do not cover the core design, full implementation, or the NTCIR-18 paper's final revision process.
+
+All contributions are transparently tracked in the GitHub commit and contributor history.
+
 ##  Model and Dataset Access
 
 Our fine-tuned Chinese-RoBERTa-wwm-ext reranker model is available on HuggingFace. The model, HF token, and dataset are available upon request for:
@@ -215,7 +221,7 @@ python QRcode.py
 
 ---
 
-## 📊 Evaluated Metrics
+## Evaluated Metrics
 
 - MRR@10 / NDCG@10 / Recall@100
 - Runtime (logged per model)
@@ -223,7 +229,7 @@ python QRcode.py
 
 ---
 
-## ✍️ Reviewer's Comments Addressed
+## Reviewer's Comments Addressed
 
 - ✅ BM25 baseline added
 - ✅ Runtime comparison included
