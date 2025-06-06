@@ -10,12 +10,12 @@ This is the official demo package for our NTCIR-18 AI Cup submission:
 
 This pipeline and architecture was built by [Yi-Ting, Chiu](https://github.com/Eric0801) (GitHub: [@Eric0801](https://github.com/Eric0801), also known as EatingChew). Any other repository implementing similar functionality is a descendant of this project.
 
-## 🔑 Model and Dataset Access
+##  Model and Dataset Access
 
 Our fine-tuned Chinese-RoBERTa-wwm-ext reranker model is available on HuggingFace. The model, HF token, and dataset are available upon request for:
-- 🎓 Educational purposes
-- 🔬 Research use
-- 🎯 Demo testing
+-  Educational purposes
+-  Research use
+-  Demo testing
 
 ⚠️ **Important Notice**: Commercial use of the dataset or pipeline is strictly forbidden. This includes but is not limited to:
 - 🚫 Commercial product development
