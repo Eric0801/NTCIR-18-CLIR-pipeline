@@ -12,7 +12,7 @@ This pipeline and architecture was built by [Yi-Ting, Chiu](https://github.com/E
 
 ## 👥 Contributors
 
-This project also received support from [Zong-Han Bai] (GitHub: HummerQAQ), who contributed selectively to early-stage discussions, code testing, and translation error analysis verification. While valuable, these contributions do not cover the core design, full implementation, or the NTCIR-18 paper's final revision process.
+This project also received support from [Zong-Han, Bai] (GitHub: HummerQAQ), who contributed selectively to early-stage discussions, code testing, and translation error analysis verification. While valuable, these contributions do not cover the core design, full implementation, or the NTCIR-18 paper's final revision process.
 
 All contributions are transparently tracked in the GitHub commit and contributor history.
 
