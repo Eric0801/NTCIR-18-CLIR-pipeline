@@ -6,12 +6,22 @@ import os
 from config import (
     MODELS_DIR,
     ensure_dir,
-    is_colab,
-    is_kaggle,
-    is_local,
     ENVIRONMENT,
-    MODEL_CONFIGS as CONFIG_MODEL_CONFIGS
+    MODEL_CONFIGS as CONFIG_MODEL_CONFIGS,
+    detect_environment
 )
+
+def is_colab():
+    """Check if running in Google Colab."""
+    return ENVIRONMENT == 'colab'
+
+def is_kaggle():
+    """Check if running in Kaggle."""
+    return ENVIRONMENT == 'kaggle'
+
+def is_local():
+    """Check if running in local environment."""
+    return ENVIRONMENT == 'local'
 
 def setup_huggingface():
     """Setup HuggingFace authentication."""
@@ -29,9 +39,9 @@ def setup_huggingface():
             print("⚠️ No .env file found. Will try anonymous access.")
     except Exception as e:
         print(f"❌ Error setting up HuggingFace authentication: {e}")
-        if is_colab:
+        if is_colab():
             print("Please ensure you have mounted Google Drive and the .env file is in the correct location.")
-        elif is_kaggle:
+        elif is_kaggle():
             print("Please ensure you have added the .env file to your Kaggle dataset.")
         else:
             print("Please check if the .env file exists and contains a valid HF_TOKEN.")
@@ -69,9 +79,9 @@ def download_model(name, config):
         ensure_dir(save_path)
     except Exception as e:
         print(f"❌ Error creating model directory: {e}")
-        if is_colab:
+        if is_colab():
             print("Please ensure you have write permissions in your Google Drive.")
-        elif is_kaggle:
+        elif is_kaggle():
             print("Please ensure you have write permissions in your Kaggle workspace.")
         raise
 
@@ -79,18 +89,20 @@ def download_model(name, config):
         if config["model_cls"] == "sentence-transformer":
             model = SentenceTransformer(config["hf_id"])
             model.save(str(save_path))
-        else:
+        elif config["model_cls"] == "AutoModelForSequenceClassification":
             tokenizer = AutoTokenizer.from_pretrained(config["hf_id"])
-            model = config["model_cls"].from_pretrained(config["hf_id"])
+            model = AutoModelForSequenceClassification.from_pretrained(config["hf_id"])
             tokenizer.save_pretrained(save_path)
             model.save_pretrained(save_path)
+        else:
+            raise ValueError(f"Unknown model class: {config['model_cls']}")
 
         print(f"[✓] Saved to {save_path}")
     except Exception as e:
         print(f"❌ Error downloading {name}: {e}")
-        if is_colab:
+        if is_colab():
             print("Please ensure you have mounted Google Drive and sufficient space.")
-        elif is_kaggle:
+        elif is_kaggle():
             print("Please ensure you have sufficient space in your Kaggle workspace.")
         else:
             print("Please check your internet connection and available disk space.")
@@ -111,9 +123,9 @@ def main():
                 download_model(name, cfg)
             except Exception as e:
                 print(f"Failed to download {name}: {e}")
-                if is_colab:
+                if is_colab():
                     print("Please ensure you have mounted Google Drive and sufficient space.")
-                elif is_kaggle:
+                elif is_kaggle():
                     print("Please ensure you have sufficient space in your Kaggle workspace.")
                 else:
                     print("Please check your internet connection and available disk space.")
