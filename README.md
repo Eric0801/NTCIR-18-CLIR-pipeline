@@ -5,7 +5,7 @@ This is the official demo package for our NTCIR-18 AI Cup submission:
 > **"Translation or Multilingual Retrieval? Evaluating Cross-Lingual Search Strategies for Traditional Chinese Financial Documents"**
 
 📄 **Paper now available in the NTCIR-18 Online Proceedings:**  
-[Paper Link](https://research.nii.ac.jp/ntcir/workshop/OnlineProceedings18/pdf/ai_cup/03-AICUP-AICUP-ChiuY.pdf)
+https://research.nii.ac.jp/ntcir/workshop/OnlineProceedings18/pdf/ai_cup/03-AICUP-AICUP-ChiuY.pdf
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## 👨‍💻 Author
